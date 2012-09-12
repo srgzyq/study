@@ -28,4 +28,25 @@
         </javac>
     </target>
 
+    <target name="compile-tests" depends="compile">
+        <javac srcdir="${test.dir}" destdir="${build.test.dir}" includeantruntime="false">
+            <classpath refid="project.classpath" />
+         </javac>
+    </target>
+
+    <target name="test" depends="compile-tests">
+        <junit haltonfailure="true">
+            <classpath refid="project.classpath" />
+            <formatter type="brief" usefile="false" />
+            <batchtest>
+               <fileset dir="${build.test.dir}" includes="**/*Test.class" />
+            </batchtest>
+            <sysproperty key="doc.dir"    value="${doc.dir}" />
+            <sysproperty key="index.dir" value="${index.dir}" />
+        </junit>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}" />
+    </target>
 </project>
