@@ -1,1 +1,4 @@
 *.class
+./HelpFriend/rao/backup/*.txt
+*.ini
+../HelpFriend/rao/backup/etl_device_id_map.txt
