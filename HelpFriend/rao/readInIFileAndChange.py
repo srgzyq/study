@@ -64,6 +64,7 @@ def strDoit(s,option,sheBeidic):
             newValue += " "
         newValue += desValue
         index = s.find(" ")
+        sheBeidic["count"] += 1
         return newValue
     else:
         return None
@@ -122,6 +123,7 @@ def getDicYuanXianId(lineStr,sheBeidic):
 
 if __name__ == "__main__":
     sheBeidic = {}
+    sheBeidic["count"] = 0
     srcPath = "backup"
     dirPath = "output"
     parseMapKey(sheBeidic)
@@ -134,3 +136,4 @@ if __name__ == "__main__":
         print name
         readIniFile(name,sheBeidic)
 
+    print "finish ok need count",sheBeidic["count"]
