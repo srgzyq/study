@@ -1,0 +1,9 @@
+<quiz> 
+    <problem>
+        <question>What does this book cover?</question> 
+        <answer>Flash Game Development</answer> 
+        <answer>Java Game Development</answer> 
+        <answer>C++ Game Development</answer>
+    </problem>
+    <problem>...etc.</problem> 
+</quiz>
