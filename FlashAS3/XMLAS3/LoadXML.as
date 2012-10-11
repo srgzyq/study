@@ -8,7 +8,7 @@ package
     public class LoadXML extends Sprite
     {
         private var quiz:XML;
-        public function Chapter11()
+        public function LoadXML()
         {
             var loader:URLLoader = new URLLoader(new URLRequest("quiz.xml"));
             loader.addEventListener(Event.COMPLETE, onXMLLoad, false,0,true);
