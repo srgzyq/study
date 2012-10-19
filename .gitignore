@@ -2,3 +2,4 @@
 HelpFriend/rao/backup/*.txt
 *.ini
 HelpFriend/rao/backup/
+.DS_Store

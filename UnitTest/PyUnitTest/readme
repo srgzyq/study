@@ -1,0 +1,18 @@
+1.依赖 unittest 模块
+2.测试类 需继承unittest.TestCase
+3.TestCase 提供
+    set-up tidy-up
+
+4.unittest.TestSuite
+
+5.unittest.TextTestRunner
+
+
+Where to place testing code
+The test module can be run standalone from the command line
+The test code can more easily be separated from shipped code
+There is less temptation to change test code to fit the code it tests without a good reason
+Test code should be modified much less frequently than the code it tests
+Tested code can be refactored more easily
+Tests for modules written in C must be in separate modules anyway, so why not be consistent?
+If the testing strategy changes, there is no need to change the source code
