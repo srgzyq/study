@@ -2,10 +2,11 @@
 2.测试类 需继承unittest.TestCase
 3.TestCase 提供
     set-up tidy-up
-
-4.unittest.TestSuite
-
-5.unittest.TextTestRunner
+4.聚合unittest.TestSuite
+5.执行unittest.TextTestRunner
+    cmd 模式
+    python -m unittest WidgetTests.widgetTestSuite
+    python -m unittest WidgetTests
 
 
 Where to place testing code

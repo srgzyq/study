@@ -1,18 +1,5 @@
 import unittest
-#import Widget
-
-class Widget:
-    def __init__(self, name = "Widget",size = (50,50)):
-        self._size = size
-        self._name = name
-    def getSize(self):
-        return self._size
-    def resize(self, width, height):
-        if width < 0 or height < 0:
-            raise ValueError, "illegal size"
-        self._size = (width, height)
-    def dispose(self):
-        pass
+from Widget import Widget
 
 """class SimpleWidgetTestCase(unittest.TestCase):
     def setUp(self):
@@ -47,17 +34,16 @@ class WidgetTestCase(unittest.TestCase):
         assert self.widget.getSize() == (100,150), 'wrong size after resize'
 
 # TestSuite
-#widgetTestSuite = unittest.TestSuite() 
-#widgetTestSuite.addTest(WidgetTestCase("testDefaultSize"))
-#widgetTestSuite.addTest(WidgetTestCase("testResize"))
+'''widgetTestSuite = unittest.TestSuite() 
+widgetTestSuite.addTest(WidgetTestCase("testDefaultSize"))
+widgetTestSuite.addTest(WidgetTestCase("testResize"))
+'''
 
 def suite():
     suite = unittest.TestSuite()
     suite.addTest(WidgetTestCase("testDefaultSize"))
     suite.addTest(WidgetTestCase("testResize"))
     return suite
-
-# suite = unittest.makeSuite(WidgetTestCase,'test')
 
 #runner = unittest.TextTestRunner()
 #widgetTestSuite = suite()
