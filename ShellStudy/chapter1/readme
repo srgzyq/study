@@ -1,0 +1,17 @@
+1.Shell types
+    sh or Bourne Shell:
+    bash
+    csh or C shell
+
+    cat /etc/shells
+    查看配置的shell
+
+    进入一个新的shell 直接在终端里面输入新的shell名，如:
+    tcsh
+
+2.Bash
+    Bash is the GNU shell
+
+    echo $-
+
+    历史信息存放在 ~/.bash_history
