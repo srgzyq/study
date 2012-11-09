@@ -1,0 +1,42 @@
+which -a script_name
+whereis script_name
+
+2.script1.sh  add PATH
+export PATH="$PATH:~/scripts"
+
+3.executing the script
+    chmod u+x script1.sh
+    ls -l script1.sh
+
+    或者
+    ./script_name.sh
+
+    bash -x script_name.sh
+
+    source script_name.sh
+    改变当前的执行环境
+
+4.script basics
+    first line:
+    #!/bin/bash
+    this implies taht the Bash executable can be found in /bin
+
+5.Adding comments
+#
+
+6.Debugging Bash scripts
+    bash -x script1.sh
+    Traces of each command plus its arguments are printed to standard output after the commands have been expanded but before the are executed.
+    或者    
+    #!/bin/bash -xv
+
+    代码中这样设置
+    set -x
+    w
+    set +x
+
+    set -f Disable file name generation using metacharacters
+    set -v Prints shell input lines as they are read.
+    set -x Print command traces before executing command
+
+
