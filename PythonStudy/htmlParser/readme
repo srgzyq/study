@@ -1,0 +1,21 @@
+HTML解析，依赖python提供的内置工具类
+
+    python SGMLParser
+    这个类解析html格式，比如开始标记和结束标记。发现某各数据，调用一个自身内部的方法。
+
+    最重要的方法:
+    start_tagname(self,attrs)
+    end_tagname(self)
+    handler_data(self,text)
+
+    tagname 标签名称
+
+locals 和 globals
+    locals  显示内容:为dictionary
+
+dictionary 格式字符
+    params = {"server":"mpilgrim", "database":"master", "uid":"sa", "pwd":"secret"}
+    "%(pwd)s" % params  
+
+---
+getattr
