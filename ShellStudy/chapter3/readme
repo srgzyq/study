@@ -1,0 +1,51 @@
+1.Shell initialization files
+    /etc/profile
+    登陆终端，首先执行profile 包含PATH USER MAIL 这些设定
+
+    /etc/inputrc
+    /etc/profiled.d directory
+
+2./etc/bashrc
+
+3. Individual user configuration files
+.bash_profile
+
+4. variables
+    env printenv: display environment variables
+    Local variables: Local variables are only available in the current shell.
+    
+    1.String variables 2.Integer variables 3.Constant variables 4.Array variables
+    VARNAME="value"
+    unset VARNAME
+
+    export VARNAME="value"
+
+6.
+    反斜杠 \
+        date=20121111
+        echo $date :输出变量值20121111
+        echo \$date :输出字符 $date
+        
+
+    单引号
+        echo '$date' :输出字符
+
+    双引号
+        echo "$date":输出变量值20121111
+        echo "`date`" : 执行date命令输出 Sun Apr 20 11:22:06 CEST 2003 
+        echo "I'd say: \"Go for it!\"" :
+        输出:I'd say: "Go for it!"
+        echo "\": More input>"
+        echo "\\" :\
+
+7.shell expansion
+    Brace expansion
+        echo sp{el,il.al}l
+    Variable expansion
+        name="srgzyq"
+        echo ${name}"@playcrab"
+    tide expansion
+        tide(符号~)
+
+        ~shirui:代表此用的此用户的目录
+        ~/:代码当前用户目录
