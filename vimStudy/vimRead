@@ -1,0 +1,50 @@
+Normal mode
+    :echo "Hello world"
+    :help
+
+Insert mode:
+    大写的I 在每一行的头插入
+    Dapping
+
+    i insert text just before the cursor
+    I insert text at the start of the line
+    a append text just after the cursor
+    A append text the end of the line
+
+    o open a new line below
+    O open a new line above
+
+    I'am a rdfdfdd
+
+    s substitute the current character
+    S substitute the current line
+
+    r replace the current character
+    R replace continuouse characters
+
+    :help inserting
+    :help replacing
+
+    Typing Skills
+
+    1.w next word
+    2.} next paragraph
+    3.3fr 3rh occurrence of the letter 'r'
+    4.35j downwards 35 lines
+    5.ctrl+o jump back to the previous location
+
+    6.2k upwards 2 lines
+
+    ^ key (line start)
+    $ key (line end)
+
+    ctrl-b 向上
+    ctrl-f 向下
+
+    1g GG 第一行
+    G 最后一行 
+    10l move 10 characters
+
+    H jump this window first
+    M jump this window Middle
+    L jump this window Last
