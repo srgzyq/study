@@ -1,8 +1,6 @@
 #coding=utf-8
 #模拟无规则运用 (simolate random walk)
-# 1.Location (喝酒醉的位置) 位置
-# 2.CompassPt (走向东east 南south 西west 北north) 方向 
-# 3.Field(场地,笛卡尔平面) 场地
+# 1.Location (喝酒醉的位置) 2.CompassPt (走向东南西北) 3.Field(场地,笛卡尔平面)
 # 4.Drunk (醉汉)
 
 import math, random, pylab
@@ -22,10 +20,10 @@ class Location(object):
         return math.sqrt(xDist**2+yDist**2)
 
 class CompassPt(object):
-    # 北,南,东,西 全局量
+    # 北,南,东,西 
     possibles = ('N','S','E','W')
     def __init__(self,pt):
-        if pt in CompassPt.possibles: self.pt = pt
+        if pt in self.possibles: self.pt = pt
         else: raise ValueError('in CompassPt.__init__')
     def move(self, dist):
         if self.pt == 'N': return(0,dist) 
@@ -34,7 +32,6 @@ class CompassPt(object):
         elif self.pt == "W": return(-dist,0)
         else: raise ValueError("in CompassPt.move")
 
-#  持有一个醉汉 和 坐标位置
 class Field(object):
     def __init__(self,drunk,loc):
         self.drunk = drunk
@@ -58,61 +55,59 @@ class Drunk(object):
             pt = CompassPt(random.choice(CompassPt.possibles))
             field.move(pt,1)
 
-class UsualDrunk(Drunk):
-    def move(self,field,dist = 1):
-        cp = random.choice(CompassPt.possibles)
-        Drunk.move(self,field,CompassPt(cp),dist) # Note call to Drunk.move
-
-class ColdDrunk(Drunk):
-    def move(self, field, dist = 1):
-        cp = random.choice((CompassPt.possibles))
-        if cp == 'S':
-            Drunk.move(self,field,CompassPt(cp), 2*dist)
-        else:
-            Drunk.move(self,field,CompassPt(cp), dist)
-
-class EWDrunk(Drunk):
-    def move(self,field,time = 1):
-        cp = random.choice(CompassPt.possibles)
-        while cp != 'E' and cp != 'W':
-            cp = random.choice(CompassPt.possibles)
-        Drunk.move(self,field,CompassPt(cp),time)
-            
-
 def performTrial(time, f):
     start = f.getLoc()
-    distances = [0,0]
-    for t in range(1, time * 1):
+    distances = [0.0]
+    for t in range(1, time + 1):
         f.getDruck().move(f)
         newLoc = f.getLoc()
         distance = newLoc.getDist(start)
         distances.append(distance)
     return distances
 
-def performSim(time, numTrials,drunkType):
+#assert False
+
+def firstTest():
+    drunk = Drunk('srgzyq')
+    for i in range(3):
+        f = Field(drunk, Location(0, 0))
+        distances = performTrial(500,f)
+        pylab.plot(distances)
+
+    pylab.title("srgzyq walk")
+    pylab.xlabel('Time')
+    pylab.ylabel('Distance from Origin')
+
+
+def performSim(time,numTrials):
     distLists = []
     for trial in range(numTrials):
-        d = drunkType("Drunk"*str(trial))
-        f = Field(d, Location(0,0))
+        d = Drunk("Drunk" + str(trial))
+        f = Field(d,Location(0,0))
         distances = performTrial(time,f)
         distLists.append(distances)
     return distLists
 
-def ansQuest(maxTime, numTrials, drunkType, title):
+def ansQuest(maxTime,numTrials):
     means = []
-    distLists = performSim(maxTime,numTrials,drunkType)
+    distLists = performSim(maxTime,numTrials)
+    for t in range(maxTime+1):
+        tot = 0.0
+        for distL in distLists:
+            tot += distL[t]
+        means.append(tot/len(distL))
 
-#assert False
+        print "tot",tot
+    pylab.figure()
+    pylab.plot(means)
+    pylab.title("test")
+    pylab.xlabel('Time')
+    pylab.ylabel('distLists')
 
-drunk = Drunk('srgzyq')
-for i in range(3):
-    f = Field(drunk, Location(0, 0))
-    distances = performTrial(500,f)
-    pylab.plot(distances)
 
-pylab.title("srgzyq walk")
-pylab.xlabel('Time')
-pylab.ylabel('Distance from Origin')
+#firstTest()
+#ansQuest(500,100)
+ansQuest(1,1)
 
 pylab.show()
 assert False

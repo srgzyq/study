@@ -58,8 +58,8 @@ class Drunk(object):
 
 def performTrial(time, f):
     start = f.getLoc()
-    distances = [0,0]
-    for t in range(1, time * 1):
+    distances = [0.0]
+    for t in range(1, time + 1):
         f.getDruck().move(f)
         newLoc = f.getLoc()
         distance = newLoc.getDist(start)
