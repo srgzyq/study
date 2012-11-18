@@ -49,3 +49,16 @@
 
         ~shirui:代表此用的此用户的目录
         ~/:代码当前用户目录
+
+    Shell parameter and vairable expansion
+        "$" 不但用于参数变量扩展中,而且用于命令替换,算术扩展
+        "{}" 不是必要的，但是可以起到保守着用
+
+    Idirct expansion 间接扩展
+        "!" 引用变量的变量
+
+    默认变量
+        ${VAR:=variable} VAR没有赋值默认用variable
+
+    arithmetic expansion
+        算术扩展的语法格式 $((EXPRESSION))

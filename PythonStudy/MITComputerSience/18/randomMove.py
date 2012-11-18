@@ -55,16 +55,6 @@ class Drunk(object):
             pt = CompassPt(random.choice(CompassPt.possibles))
             field.move(pt,1)
 
-def performTrial(time, f):
-    start = f.getLoc()
-    distances = [0.0]
-    for t in range(1, time + 1):
-        f.getDruck().move(f)
-        newLoc = f.getLoc()
-        distance = newLoc.getDist(start)
-        distances.append(distance)
-    return distances
-
 #assert False
 
 def firstTest():
@@ -78,6 +68,15 @@ def firstTest():
     pylab.xlabel('Time')
     pylab.ylabel('Distance from Origin')
 
+def performTrial(time, f):
+    start = f.getLoc()
+    distances = [0.0]
+    for t in range(1, time + 1):
+        f.getDruck().move(f)
+        newLoc = f.getLoc()
+        distance = newLoc.getDist(start)
+        distances.append(distance)
+    return distances
 
 def performSim(time,numTrials):
     distLists = []
@@ -95,9 +94,7 @@ def ansQuest(maxTime,numTrials):
         tot = 0.0
         for distL in distLists:
             tot += distL[t]
-        means.append(tot/len(distL))
-
-        print "tot",tot
+        means.append(tot/len(distLists))
     pylab.figure()
     pylab.plot(means)
     pylab.title("test")
@@ -106,8 +103,8 @@ def ansQuest(maxTime,numTrials):
 
 
 #firstTest()
-#ansQuest(500,100)
-ansQuest(1,1)
+ansQuest(1000,200)
+#ansQuest(1,5)
 
 pylab.show()
 assert False
