@@ -62,3 +62,13 @@
 
     arithmetic expansion
         算术扩展的语法格式 $((EXPRESSION))
+        $[32+23]
+
+    Command substitution
+        $(command) or `command`
+
+8 Aliases
+    creating and removing aliases
+    alias dh='df -h'
+    dh
+    unalias dh

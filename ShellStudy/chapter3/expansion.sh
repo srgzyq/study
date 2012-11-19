@@ -25,3 +25,6 @@ echo
 val=3
 echo
 echo $(($1+val+2+`date +%m`)) 
+
+echo $(date)
+echo `date`
