@@ -1,0 +1,25 @@
+Regular expressions
+
+1.Examples using grep
+    grep searches the input files for lines containing a match to a given pattern list
+
+    grep root /etc/passwd
+    搜索/etc/passwd 包含root的行
+
+    grep -n root /etc/passwd
+    显示行号
+
+    grep -v root /etc/passwd | grep -v #
+    不显示 包含root 和 #的
+
+    grep -c root /etc/passwd
+    出现root行的总数量
+
+    grep -i ps ~/.bash* | grep -v history
+    查找home目录以.bash文件开头的,包含ps, 但排除 history，比如.bash_history文件
+
+2.Line and word anchors
+    grep ^root /etc/passwd
+
+
+

@@ -72,3 +72,23 @@
     alias dh='df -h'
     dh
     unalias dh
+
+9.More Bash options
+    查看options
+    set -o
+
+    改变设置
+    set -o noclobber
+    touch test
+    date > test
+    -----------
+
+    set +o noclobber
+    date > test
+
+    ----------
+
+    变量保护
+    echo $VAR
+    set -u
+    echo $VAR
