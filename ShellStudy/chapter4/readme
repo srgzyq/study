@@ -21,5 +21,24 @@ Regular expressions
 2.Line and word anchors
     grep ^root /etc/passwd
 
+    grep :$ /etc/passwd
 
+    grep export ~/.zshrc | grep '\<PATH'
+    在.zshrc文件下查找 export 字符，并且 export 后面以PATH开头的行
+    
+    \> matches the end of a word
 
+3.Chararcter
+    [0123456789] 
+    [a-d]
+
+    [^123] 排除
+    
+    grep [yf] /etc/group
+
+4.Widcards
+    grep '\<c...h\>' /usr/share/dict/words
+
+    grep '\<c.*h>' /usr/share/dict/words
+
+Pattern matching using Bash features
