@@ -1,0 +1,38 @@
+1.sed 
+    What is sed
+    sed (stream editor) 把文档或字符串里面的文字经过一系列编辑命令换为另一种格式输出
+
+2. 参数
+
+3. 删除行 和 字符串匹配
+    sed '/erors/p' example
+    包含 erors行 输出两次
+
+    sed -n '/erors/p' example
+    -n: Silent mode  只输出需要的行 
+
+    sed '/erors/d' example
+    d 删除含有 erors的行
+
+    sed -n '/^This.*errors.$/p' example
+    This开始 errors结尾的行
+
+4. ranges of lines
+    sed '2,4d' example
+    删除2,3,4行
+
+    sed '3,$d' example
+    删除3,到末尾行
+
+5. Find and replace with sed
+    sed 's/erors/errors/' example
+    将erors 替换errors(只替换每行的第一个)
+
+    sed 's/erors/errors/g' example
+    g 替换每行的所有
+
+    sed 's/^/> /' example
+    在每行开始增加^
+
+    sed 's/$/EOL/' example 
+    在每行末尾增加 EOL
