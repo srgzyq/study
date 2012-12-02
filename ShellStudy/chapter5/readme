@@ -30,9 +30,22 @@
 
     sed 's/erors/errors/g' example
     g 替换每行的所有
+    vi 一样
 
     sed 's/^/> /' example
     在每行开始增加^
 
     sed 's/$/EOL/' example 
     在每行末尾增加 EOL
+
+    67h15m # ifconfig en1 | grep "netmask" |\
+    sed 's/^.*inet //g' | sed 's/netmask.*$//g'
+    将比的不需要的字符替换为空，只显示ip地址
+
+    # centos
+    cat /etc/man.config | grep 'MAN' | sed 's/^#.*$//g' | sed '/^$/d'
+    sed 删除#的注释行
+    /^$/d 删除空行
+
+6. Reading sed commands from a file
+   -f , 测试文件 script.sed
