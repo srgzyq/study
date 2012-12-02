@@ -1,0 +1,48 @@
+1. 安装 centos
+    1.swp 1024
+    2.跟目录就ok
+
+2.shell
+    # root 用户
+    $ 当前用户
+
+    hostname 主机名
+    cc@linuxcast
+    cc 登陆了linuxcast.net 主机
+
+    命令 选项 参数
+    uname
+    uname -a
+    uname --all
+
+    firefox &
+    & 表示放在后面运行 多任务
+
+    tab 补全
+
+    History
+        !! 重复前面一个命令 
+        !字符
+        !数字
+
+        ctrl + r :命令搜索
+
+    用户切换
+        su - xxxx
+        su - 切换到root  (全新的终端)
+        sudo
+
+        id 当前用户的信息
+
+        passwd 修改密码
+
+    作用环境
+        &
+
+        jobs 查看当即后台运行的作业
+
+        sleep 5000
+        ctrl+z 暂停
+
+        bg 2 放在后台
+        fg
