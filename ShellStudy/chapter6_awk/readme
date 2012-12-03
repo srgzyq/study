@@ -1,0 +1,34 @@
+1.Print
+    $1,$2 每一列 
+    $0 整行
+
+    df -h
+
+    ls -l | awk '{print $5 $9}'
+    第五列，文件的大小和第9列 文件的名字
+
+    格式化:
+    ls -ldh * | grep -v total | \
+    awk '{ print "Size is " $5 " bytes for " $9 }'
+
+    df -h | sort -rnk 5 | head -3 | \ 
+    awk '{ print "Partition " $6 "\t: " $5 " full!" }'
+
+2.这则表达
+    df -h | awk  '/dev\/hd/ {print $6 "\t: " $5} '
+    /dev/hd 包含，
+
+    ls -l | awk '/\<(a|x).*\.conf$/ { print $9} '
+
+    在etc 文件下 查找a或者x开始的.conf 结束的文件 
+
+    ls -l | awk 'BEGIN { print "Files found:\n" } /\<[a|x].*\.conf$/ { print $9 }'
+    在显示之前 出现Files found
+
+    ls -l | \
+    awk '/\<[a|x].*\.conf$/ { print $9 } END { print \
+    "Can I do anything else for you, mistress?" }'
+    在后面显示 一行
+
+    Gawk scripts
+    df -h | awk -f diskrep.awk
