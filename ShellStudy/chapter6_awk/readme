@@ -32,3 +32,10 @@
 
     Gawk scripts
     df -h | awk -f diskrep.awk
+
+3.awk 默认是空行分离
+    FS=":" 使用：分离
+    awk 'BEGIN { FS=":"} { print $1 "\t" $5 }' /etc/passwd
+
+    awk 'BEGIN { OFS=";" ; ORS="\n-->\n" } { print $1,$2}' test
+    显示；分隔，然后每一行后面换行跟-->

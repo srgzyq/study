@@ -17,10 +17,20 @@
     },
 }
 --]]
-a={["srgzyq"]={["person"]={[0]={["key"]="test",["value"]=2000,},[1]={["key"]="playcrab",["value"]=1234,},},["age"]=12,["name"]="srgzyq",},}
+--[[a={
+    ["person"] ={
+        "tongren",  
+        "tongren",
+    }
+  }
+--]]
+--print(a["person"][1])
+a={["srgzyq"]={["name"]={12,13,14,15,},},}
+print(a["srgzyq"]["name"][2])
+--a={["srgzyq"]={["person"]={[0]={["key"]="test",["value"]=2000,},[1]={["key"]="playcrab",["value"]=1234,},},["age"]=12,["name"]="srgzyq",},}
 --[ { ["key"] = "xxx",["value"]=100, } , { ["key"] = "xxx",["value"]=100, } , ]
 
-print(a["srgzyq"]["person"][0]["key"])
+---print(a["srgzyq"]["person"][0]["key"])
 --print(a["person"][1]["key"])
 
 --[[print(a["person"]["name"])

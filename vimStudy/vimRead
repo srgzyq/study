@@ -48,3 +48,6 @@ Insert mode:
     H jump this window first
     M jump this window Middle
     L jump this window Last
+
+Editing Basics
+    Let's learn the basic editing commands in Vim for reading/writing files, cut/copy/paste, undo/redo and searching

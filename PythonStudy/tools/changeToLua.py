@@ -20,18 +20,25 @@ def prase_list_struct(value,key):
     strLua = "[\""+key+"\"]={"
     dicIndex = 0
     for dicValue in value:
-        strLua += "["+str(dicIndex)+"]={"
-        dicKeys = dicValue.keys() 
-        for oneKey in dicKeys:
-            oneValue = dicValue[oneKey]
-            valueType = get_type_class(oneValue)
-            if valueType == "str" or valueType=="unicode":
-                strLua += "[\""+oneKey+"\"]=\""+str(oneValue)+"\","
-            else:
-                strLua += "[\""+oneKey+"\"]="+str(oneValue)+","
+        baseType = get_type_class(dicValue)
+        if baseType == "dict":
+            strLua += "["+str(dicIndex)+"]={"
+            dicKeys = dicValue.keys() 
+            for oneKey in dicKeys:
+                oneValue = dicValue[oneKey]
+                valueType = get_type_class(oneValue)
+                if valueType == "str" or valueType=="unicode":
+                    strLua += "[\""+oneKey+"\"]=\""+str(oneValue)+"\","
+                else:
+                    strLua += "[\""+oneKey+"\"]="+str(oneValue)+","
 
-        strLua += "},"
-        dicIndex += 1
+            strLua += "},"
+            dicIndex += 1
+        else:
+            if baseType == "str" or baseType == "unicode":
+                strLua += "\""+str(dicValue)+"\","
+            else:
+                strLua += str(dicValue)+","
     strLua += "},"
     return strLua
      
@@ -98,12 +105,13 @@ if __name__ == "__main__":
 
     #testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1}},"chichi":{"hard":{"shenzhang":"pig"},"age":12},"srgzyq":"name"}
     #testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1}},"srgzyq":[{"value":2000,"key":"test"}]}
-    testData={"srgzyq":{"age":12,"name":"srgzyq","person":[{"value":2000,"key":"test"},{"value":1234,"key":"playcrab"}]}}
+    #testData={"srgzyq":{"age":12,"name":"srgzyq","person":[{"value":2000,"key":"test"},{"value":1234,"key":"playcrab"}]}}
+    testData={"srgzyq":{"name":[12,13,14,15],"chichi":["c","d"]}}
     #testData={"person":{"age":12,"name":"srgzyq"},"person1":{"age":13,"name":"chichi"}}
     #testData2={"person1":{"age":13,"name":"chichi"}}
     allStr = encond_one_by_one(testData)
     print allStr
-    file_write_into_lua("luafile.lua",allStr)
+    #file_write_into_lua("luafile.lua",allStr)
 
     #allDicData = {testData,testData2}
     #print allDicData
