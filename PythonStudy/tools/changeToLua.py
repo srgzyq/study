@@ -2,71 +2,45 @@
 import string
 import os
 
-"""a={
-    ["person"] = {
-        [0] = {
-                ["key"]="srgzyq",
-                ["value"]=200,
-            },
-        
-        [1] ={
-                ["key"]="playcrab",
-                ["value"]=300,
-            }
-    },
-}
-"""
-def prase_list_struct(value,key):
-    strLua = "[\""+key+"\"]={"
-    dicIndex = 0
-    for dicValue in value:
-        baseType = get_type_class(dicValue)
-        if baseType == "dict":
-            strLua += "["+str(dicIndex)+"]={"
-            dicKeys = dicValue.keys() 
-            for oneKey in dicKeys:
-                oneValue = dicValue[oneKey]
-                valueType = get_type_class(oneValue)
-                if valueType == "str" or valueType=="unicode":
-                    strLua += "[\""+oneKey+"\"]=\""+str(oneValue)+"\","
-                else:
-                    strLua += "[\""+oneKey+"\"]="+str(oneValue)+","
 
-            strLua += "},"
-            dicIndex += 1
-        else:
-            if baseType == "str" or baseType == "unicode":
-                strLua += "\""+str(dicValue)+"\","
-            else:
-                strLua += str(dicValue)+","
-    strLua += "},"
-    return strLua
-     
-
-def prase_dic_struct(dictData,keyValue,index):
+def prase_dic_struct(jsonValue,keyValue,index):
     strLua=""
     if keyValue != "":
-        strLua = "[\""+keyValue+"\"]={"
-    for key in dictData:
-        list_lua = []
-        value = dictData[key]
-        typeStr = get_type_class(value) 
-        if typeStr == "dict":
-            strLua += prase_dic_struct(value,key,index+1)
-        elif typeStr == "list":
-            strLua += prase_list_struct(value,key)
-        else:
-            #print "key="+key+"  value="+str(value)
-            valueType = get_type_class(value)
-            if valueType == "str" or valueType=="unicode":
-                strLua += "[\""+key+"\"]=\""+str(value) + "\","
-            else:
-                strLua += "[\""+key+"\"]="+str(value) + ","
+        strLua = "[\""+str(keyValue)+"\"]="
+    #elif index==0:
+    #    strLua="{"
 
-    if index != 0:    
-        strLua += "}," 
-    #else:
-        #strLua += "}"
+
+    typeStr = get_type_class(jsonValue) 
+
+    if typeStr == "dict":
+        strLua += "{"
+        for key in jsonValue:
+            value = jsonValue[key]
+            strLua += prase_dic_struct(value,key,index+1)
+        if index == 0:
+            strLua+="}"
+        else:
+            strLua += "},"
+
+    elif typeStr == "list":
+        strLua += "{"
+        for key in range(len(jsonValue)):
+            value = jsonValue[key]
+            strLua += prase_dic_struct(value,key+1,index+1)
+        if index == 0:
+            strLua += "}"
+        else:
+            strLua += "},"
+    elif typeStr == "int":
+        strLua += str(jsonValue)+","
+    elif typeStr == "str" or typeStr=="unicode":
+        strLua += "\""+str(jsonValue)+"\","
+    elif typeStr == "float":
+        strLua += str(jsonValue)+","
+    
+    #if index == 0:
+    #    strLua+="}"
     return strLua
 
 def get_type_class(value):
@@ -85,7 +59,7 @@ def encond_one_by_one(allDicData):
         newDic = {key:allDicData[key]}
         a = prase_dic_struct(newDic,"",index)
         lua_table.append(a)
-    allStr="a={"+string.join(lua_table,"")+"}"
+    allStr="a="+string.join(lua_table,"")
     return allStr
 
 def prase_file_name(fileName):
@@ -99,16 +73,30 @@ def prase_file_name(fileName):
 
 if __name__ == "__main__":
     ##testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1},"person1":{"age":13,"name":"chichi"}}}
-    fileName="/Users/shirui/Develop/ares/svn/Resources/config/item.json"
-    prase_file_name(fileName)
+    #fileName="/Users/shirui/Develop/ares/svn/Resources/config/item.json"
+    #prase_file_name(fileName)
 
 
-    #testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1}},"chichi":{"hard":{"shenzhang":"pig"},"age":12},"srgzyq":"name"}
+    testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1},"chichi":{"hard":{"shenzhang":"pig"},"age":12},"srgzyq":"name"}}
     #testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1}},"srgzyq":[{"value":2000,"key":"test"}]}
     #testData={"srgzyq":{"age":12,"name":"srgzyq","person":[{"value":2000,"key":"test"},{"value":1234,"key":"playcrab"}]}}
-    testData={"srgzyq":{"name":[12,13,14,15],"chichi":["c","d"]}}
+    """testData={"srgzyq":
+                {
+                    "name":
+                        [
+                            {
+                                "srgzyq":{"age":12,"time":1},
+                                "chichi":["c","d"]
+                            }
+                        ]
+                }
+            }
+
+    """
     #testData={"person":{"age":12,"name":"srgzyq"},"person1":{"age":13,"name":"chichi"}}
-    #testData2={"person1":{"age":13,"name":"chichi"}}
+    #testData={"person1":{"age":13,"name":"chichi"}}
+    #testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1}}}
+    print testData
     allStr = encond_one_by_one(testData)
     print allStr
     #file_write_into_lua("luafile.lua",allStr)
