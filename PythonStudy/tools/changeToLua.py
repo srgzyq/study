@@ -7,9 +7,6 @@ def prase_dic_struct(jsonValue,keyValue,index):
     strLua=""
     if keyValue != "":
         strLua = "[\""+str(keyValue)+"\"]="
-    #elif index==0:
-    #    strLua="{"
-
 
     typeStr = get_type_class(jsonValue) 
 
@@ -39,8 +36,6 @@ def prase_dic_struct(jsonValue,keyValue,index):
     elif typeStr == "float":
         strLua += str(jsonValue)+","
     
-    #if index == 0:
-    #    strLua+="}"
     return strLua
 
 def get_type_class(value):
@@ -77,9 +72,9 @@ if __name__ == "__main__":
     #prase_file_name(fileName)
 
 
-    testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1},"chichi":{"hard":{"shenzhang":"pig"},"age":12},"srgzyq":"name"}}
+    #testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1},"chichi":{"hard":{"shenzhang":"pig"},"age":12},"srgzyq":"name"}}
     #testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1}},"srgzyq":[{"value":2000,"key":"test"}]}
-    #testData={"srgzyq":{"age":12,"name":"srgzyq","person":[{"value":2000,"key":"test"},{"value":1234,"key":"playcrab"}]}}
+    testData={"srgzyq":{"age":12,"name":"srgzyq","person":[{"value":2000,"key":"test"},{"value":1234,"key":"playcrab"}]}}
     """testData={"srgzyq":
                 {
                     "name":

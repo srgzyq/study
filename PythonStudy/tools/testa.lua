@@ -53,6 +53,8 @@ print(a["srgzyq"])
                 },
     }
 --]]
-a={["person"]={["srgzyq"]="name",["skill"]={["python"]=1,["lua"]=1,["as3"]=1,},["age"]=12,["chichi"]={["age"]=12,["hard"]={["shenzhang"]="pig",},},["name"]="srgzyq",},}
+--a={["person"]={["srgzyq"]="name",["skill"]={["python"]=1,["lua"]=1,["as3"]=1,},["age"]=12,["chichi"]={["age"]=12,["hard"]={["shenzhang"]="pig",},},["name"]="srgzyq",},}
 --print(a["srgzyq"]["name"]["1"]["srgzyq"]["age"])
-print(a["person"]["skill"]["lua"])
+--print(a["person"]["skill"]["lua"])
+a={["srgzyq"]={["person"]={["1"]={["key"]="test",["value"]=2000,},["2"]={["key"]="playcrab",["value"]=1234,},},["age"]=12,["name"]="srgzyq",},}
+
