@@ -1,0 +1,72 @@
+常用命令
+    时间 date
+       date -u
+       显示年月日
+       date +%Y--%m--%d
+       修改时间
+       date -s '20:20:20'
+
+    hwclock(clock) 显示硬件时钟时间
+
+    cal 日历
+     
+    uptime 系统运行时间
+
+输出 查看命名
+    1.echo "srgyzq"
+    2.cat 查看文件
+    3.head 默认10行
+        -n 指定行数
+    4.tail -n 末尾10行
+        tail -f 追踪显示文件更新
+    4.more 翻页命令 向下翻页
+    5.less 上下翻页
+
+查看硬件信息
+    lspci 查看pci设备
+        -v
+
+    lsusb 查看usb
+        -v
+
+    lsmod 加载的驱动模块
+
+关机重启
+    shutdown [关机，重启] 时间
+    shutdown -h 关闭计算机
+    shutdown -r 重启
+
+    shutdown -h now
+    shutdown -h +10 (十分钟关机)
+    shutdown -h 23:30
+    shutdown -r now
+
+    poweroff
+
+    reboot 重启
+
+归档 压缩
+    zip:
+    zip linuxcast.zip myfile
+    unzip linuxcast.zip
+
+    gzip:
+    gzip linuxcast.net
+
+    tar 归档文件 归档命令
+    tar -cvf out.tar linuxcast
+    tar -xvf linuxcast.tar
+    tar -cvzf backup.tar.gz /etc
+
+    
+查找
+    locate keyword
+
+    find 查找位置 查找参数
+
+    find . -name *linuxcast*
+    find / -name *.conf
+    find / -perm 777
+    find / -type d
+    find . -name "a*" -exec ls -l {} \
+
