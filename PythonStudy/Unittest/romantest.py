@@ -93,7 +93,7 @@ class ToRomanBadInput(unittest.TestCase):
 class FromRomanBadInput(unittest.TestCase):
     def testTooManyRepeatedNumerals(self):
         """ fromRoman should fail with too many repeated numerals """
-        for s in ('MMMM', 'DD', 'CCCC', 'LL', 'XXXX', 'VV', 'IIII')
+        for s in ('MMMM', 'DD', 'CCCC', 'LL', 'XXXX', 'VV', 'IIII'):
             self.assertRaises(roman.InvalidRomanNumeralError,roman.fromRoman,s)
 
     def testRepeatedPairs(self):
@@ -112,7 +112,7 @@ class SanityCheck(unittest.TestCase):
         for integer in range(1, 4000):
             numeral = roman.toRoman(integer)
             result = roman.fromRoman(numeral)
-            self.assertRaises(integer,result)
+            self.assertEqual(integer,result)
 
 class CaseCheck(unittest.TestCase):
     def testToRomanCase(self):
@@ -128,4 +128,5 @@ class CaseCheck(unittest.TestCase):
             roman.fromRoman(numeral.upper())
             self.assertRaises(roman.InvalidRomanNumeralError,roman.fromRoman,numeral.lower())
 
-
+if __name__ == "__main__":
+    unittest.main()
