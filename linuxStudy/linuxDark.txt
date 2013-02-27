@@ -25,3 +25,11 @@
         3.必须在UEFI的硬件上才能使用
         4.必须使用64bit系统
         5.Mac原生就是GPT
+
+1.FDISK 分区工具
+    root 权限下运行 su
+    fdisk -l 显示硬盘信息
+    fdisk /dev/sdb
+    partprobe 更新分区表
+
+    cat /proc/partitions 查看硬盘分区信息
