@@ -42,3 +42,41 @@
         rmdir
 
 文件的系统结构
+
+文件系统
+    1.没有文件系统的设备 raw设备
+    2.fat32 NTFS, ext3,ext4,HFS等
+    3.日志，分区大小，当个文件大小,性能
+
+    创建文件系统
+        mke2fs
+            mke2fs -t ext3 /dev/sda3
+        常用参数
+            -b blocksize 指定文件系统块大小
+            -c           建立文件系统时检查坏损块
+            -L label     指定卷标
+            -j           建立文件系统日志
+
+        mkfs
+            mkfs.ext4 /dev/sda3
+
+    查看文件系统的详细分区
+        dumpe2fs /dev/sdb1
+
+JOURNAL日志
+    1.文件系统将准备执行的事务的具体内容写入日志
+    2.文件系统进行操作
+    3.操作成功后，将事务的具体内容从日志中删除
+
+标签
+    e2lable /dev/sdb1
+
+    e2lable /dev/sdb1 LINUXCAST
+
+fsck 检查修复损坏的文件系统
+    fsck /dev/sda2
+
+    -y 直接修复不提示
+
+    fsck -t ext4 /dev/sda2
+    指定文件系统
