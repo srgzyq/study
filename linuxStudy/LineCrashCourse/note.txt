@@ -1,2 +1,26 @@
 1.Paths Folders Directories
     pwd (print working dirctory)
+
+2.What's Your Computer's Name
+    hostname
+
+3.Make A Directory
+    mkdir temp
+    mkdir -p temp/xiaoli
+    mkdir "I have her"
+
+4.Change Directory (cd)
+    cd temp
+    cd temp/xiaoli
+    cd ..
+
+5.List Directory (ls)
+    cd temp
+    ls
+
+    ls -lR
+
+6.Remove Directory(rmdir)
+    rmdir "I have her"
+
+7.Moving Around(pushd-popd)
