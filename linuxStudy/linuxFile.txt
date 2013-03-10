@@ -80,3 +80,32 @@ fsck 检查修复损坏的文件系统
 
     fsck -t ext4 /dev/sda2
     指定文件系统
+
+挂着磁盘
+    mount /dev/sda3(要挂载的分区)  /mnt(挂载的地方)
+    mount -o remount,ro /dev/sdb1 /mnt/
+    (修改为只读 重挂载硬盘)
+
+    -o 指定挂载选项
+        ro,rw 以只读或者读写形式挂载
+        sync  代表不使用缓存,而不是对所以操作直接写入磁盘
+        async 代表使用缓存
+        noatime 代表每次访问文件时不更新文件的访问时间
+        atime 代表每次访问文件时更新文件的访问时间
+        remount 重新挂载文件系统
+
+    umount 文件系统 或者 挂载点
+    umount /dev/sdb1
+    umount /mnt/
+
+    fuser -m /mnt
+    命令查看使用文件系统的进程
+    lsof /mnt
+    查看正在被使用的文件
+
+    /etc/fstab 定义需要自动挂载的文件系统
+    /dev/sda2       /mnt    ext4        defaults    0,0
+    需要挂载的设备  挂载点  文件系统    默认参数    dump,fsck相关选项
+
+    mount -a 挂载fstab的配置选项
+
