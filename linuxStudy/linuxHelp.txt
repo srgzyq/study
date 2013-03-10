@@ -1,0 +1,16 @@
+1.获取帮助
+    ls --help 或者ls -h
+
+    man
+        man ls
+        man 文档类型
+
+        man -k passwd
+        (所有包含passwd的文档)
+
+    info
+
+    /-L 查找-L
+
+    usr/share/doc
+
