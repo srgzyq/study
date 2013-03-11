@@ -23,4 +23,21 @@
 6.Remove Directory(rmdir)
     rmdir "I have her"
 
+7.Making Empty Files(Touch)
+    touch iamcool.txt
+    (make an empty file,on Unix it also changes the times on the file)
+
+8.Copy A File (cp)
+    cp iamcool.txt neat.text
+    mkdir something
+    cp iamcool.txt something/
+    ls something/
+    cp -r something newplace
 7.Moving Around(pushd-popd)
+    cd temp
+    mkdir -p i/like/icecream
+    pushd i/like/icecream
+    pwd
+    popd
+    pwd
+
