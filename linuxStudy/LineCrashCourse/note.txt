@@ -33,7 +33,8 @@
     cp iamcool.txt something/
     ls something/
     cp -r something newplace
-7.Moving Around(pushd-popd)
+
+9.Moving Around(pushd-popd)
     cd temp
     mkdir -p i/like/icecream
     pushd i/like/icecream
@@ -41,3 +42,15 @@
     popd
     pwd
 
+10. Moving A File(mv)
+    mv newplace oldplace
+    mv awsome.txt uncool.txt
+
+11. View A File(less,MORE)
+    less ex12.txt
+    q (as in quit)
+    spacebar and w (go down and up)
+    more ex12.txt
+
+12. Stream A File(cat)
+    cat ex13.txt
