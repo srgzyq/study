@@ -9,3 +9,46 @@
         系统中文件都有一个所属用户和组
         id命令显示当前用户的信息
         passwd修改当前用户密码
+
+    /etc/passwd 用户信息
+    /etc/shadow 用户密码
+    /etc/group 组信息
+
+    whoami 当前用户
+    who 显示那些用户登陆系统
+    w 显示那些用户 在做什么
+
+创建一个用户
+    useradd nash_su
+    1./ect/passwd 添加用户信息
+    2.passwd 命令创建密码，将保存在/etc/shadow中
+    3.建立一个家目录/home/xxxx
+    4.将/etc/skel/用的文件复制在家目录中
+    5.建立一个与用户用户名相同的组
+
+    -d 家目录
+    -s 登陆shell
+    -u userid
+    -g 主族
+
+    useradd -u 666 -G nash_us testuser2
+
+修改用户信息
+    usermod xx
+    -l 新用户名
+    -u 新uerid
+
+    userdel xxx （保存家目录）
+    userdel -r xxx (删除用户家目录)
+
+组
+    每个组有个ID
+    /etc/group
+    每个用户拥有一个主组,最多拥有31个附属组
+
+    groupadd linux
+
+    groupmod -n newname oldname
+    groupmod -g newGid oldGid
+
+    groupdel xxx
