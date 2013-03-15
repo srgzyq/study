@@ -54,3 +54,6 @@
 
 12. Stream A File(cat)
     cat ex13.txt
+
+13. Removing A File(rm)
+    
