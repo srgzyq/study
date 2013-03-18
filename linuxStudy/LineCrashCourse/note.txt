@@ -67,4 +67,24 @@
         The | takes the output from the command on the left, and "pipes" it to the command on the right.
 
     $<$
-        The < will
+        The < will take and send the input from the file on the right to the program on the left.
+
+    $>$
+        The > takes the output of the command on the left,then writes it to the file on the right.
+
+    $>>$
+        The >> takes the output of the command on the left,then appends it to the file on the right.
+
+15. Wildcard Matching
+        ls *.txt
+        ls ex*.*
+        le e*
+        ls *t
+        cat *.txt > bigfile.txt
+        rm *.txt
+
+16 Finding Files(find, DIR_R)
+        find . -name "*txt" -print
+        find . -name "*txt" -print | less
+        "Hey find,start here(.) then find files named *.txt and print them"
+        "find STARTDIR -name WILDCARD -print"
