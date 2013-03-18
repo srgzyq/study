@@ -88,3 +88,5 @@ chmod 修改文件的权限
     r-x=4+1=5
 
     chmod 755 test
+
+

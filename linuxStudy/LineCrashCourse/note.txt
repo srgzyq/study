@@ -56,4 +56,15 @@
     cat ex13.txt
 
 13. Removing A File(rm)
-    
+    rm -rf newplace 
+
+14. Pipes And Redirction
+    cat ex12.txt ex13.txt | less
+
+    cat ex12.txt > another.txt
+
+    $|$
+        The | takes the output from the command on the left, and "pipes" it to the command on the right.
+
+    $<$
+        The < will
