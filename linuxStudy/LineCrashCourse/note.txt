@@ -88,3 +88,12 @@
         find . -name "*txt" -print | less
         "Hey find,start here(.) then find files named *.txt and print them"
         "find STARTDIR -name WILDCARD -print"
+
+17 Looking Inside Files (grep, select-string)
+        grep file *.txt
+
+18  Finding Help (apropo)
+        apropos search
+        apropos find
+    
+        Sometimes you forget the name of a command but you know what id does
