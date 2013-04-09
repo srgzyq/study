@@ -97,3 +97,10 @@
         apropos find
     
         Sometimes you forget the name of a command but you know what id does
+
+19  env
+    env
+
+20  export
+    export TESTING="bad bada bing"
+    unset TESTING
