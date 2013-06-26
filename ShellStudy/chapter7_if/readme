@@ -1,0 +1,22 @@
+1.Introduction to if
+
+    if TEST-COMMANDS; then CONSEQUENT-COMMANDS;fi
+
+    TEST_-COMMANDS return 0 则为真 执行
+
+2.-- 常用的 if 表达
+    http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html
+    [-a FILE] True if FILE exists
+
+3.
+    if [ $? -eq 0 ] 
+    then echo 'That was a god job!'
+    fi
+
+    The ? variable hodls the exit status of the previously executed command
+
+    grep $USER /etc/passwd
+    echo $?
+
+    nmu=`wc -l readme`
+    echo $num

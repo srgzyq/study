@@ -1,0 +1,1219 @@
+[2013-02-06 01:50:42][DEBUG]requestbegin,{"version":"693","uniqid":"Nzg2QzFDRDgzODdF\n"}
+[2013-02-06 01:50:43][DEBUG]request,{"version":"693","uniqid":"Nzg2QzFDRDgzODdF\n"}
+[2013-02-06 01:50:43][DEBUG]response,{"s":"OK","d":[],"v":{"version":"693"},"GameStatic":{"weiboSuffix":"","closeWeibo":true},"patch":"local info=AppInformation:getInstance();info.epush=true;info.pc_zip_support=true;info.pc_enc_support=true;"}
+[2013-02-06 01:50:45][DEBUG]WaitingLayerHandler:showWaitingIcon from PreGameScreen.checkServerInfo
+[2013-02-06 01:50:45][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:50:45][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:50:45][DEBUG]requestbegin,{"m":"System.getSecs","p":{"app_build_id":"build_apk_test","app_platform":"ios91","pid":"ios91_323732360","app_channel_id":"3"}}
+[2013-02-06 01:50:45][DEBUG]request,{"m":"System.getSecs","p":{"app_build_id":"build_apk_test","app_platform":"ios91","pid":"ios91_323732360","app_channel_id":"3"}}
+[2013-02-06 01:50:45][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:50:45][DEBUG]WaitingLayerHandler:removeWaitingIcon fromPreGameScreen.checkServerInfoOk
+[2013-02-06 01:50:45][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:50:45][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:50:46][DEBUG]WaitingLayerHandler:showWaitingIcon from PreGameScreen.checkServerInfo
+[2013-02-06 01:50:46][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:50:46][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:50:46][DEBUG]requestbegin,{"m":"System.getSecs","p":{"app_build_id":"build_apk_test","app_platform":"ios91","pid":"ios91_323732360","app_channel_id":"3"}}
+[2013-02-06 01:50:46][DEBUG]request,{"m":"System.getSecs","p":{"app_build_id":"build_apk_test","app_platform":"ios91","pid":"ios91_323732360","app_channel_id":"3"}}
+[2013-02-06 01:50:46][DEBUG]response,{"s":"OK","all":{"s91":{"name":"\u6c5f\u6e56\u9738\u4e1a","full":1,"index":1,"api_url":"http:\/\/s28.playcrab.com\/ios91\/vms\/index.php","socket_url":"http:\/\/122.11.61.27:8091\/socket.io\/1\/","socket_host":"122.11.61.27","socket_port":8091,"socket_path":"\/socket.io\/1\/websocket\/"},"s92":{"name":"\u5343\u53e4\u8c6a\u4fa0","full":1,"index":2,"api_url":"http:\/\/s28.playcrab.com\/ios91\/vms\/index.php","socket_url":"http:\/\/122.11.61.27:8092\/socket.io\/1\/","socket_host":"122.11.61.27","socket_port":8092,"socket_path":"\/socket.io\/1\/websocket\/"},"s93":{"name":"\u82f1\u96c4\u4e7e\u5764","full":1,"index":3,"api_url":"http:\/\/s28.playcrab.com\/ios91\/vms\/index.php","socket_url":"http:\/\/122.11.61.27:8093\/socket.io\/1\/","socket_host":"122.11.61.27","socket_port":8093,"socket_path":"\/socket.io\/1\/websocket\/"},"s94":{"name":"\u70fd\u70df\u56db\u8d77","full":1,"index":4,"api_url":"http:\/\/s28.playcrab.com\/ios91\/vms\/index.php","socket_url":"http:\/\/122.11.61.26:8094\/socket.io\/1\/","socket_host":"122.11.61.26","socket_port":8094,"socket_path":"\/socket.io\/1\/websocket\/"},"s95":{"name":"\u7eb5\u6a2a\u6c5f\u6e56","full":1,"index":5,"api_url":"http:\/\/s28.playcrab.com\/ios91\/vms\/index.php","socket_url":"http:\/\/122.11.61.27:8095\/socket.io\/1\/","socket_host":"122.11.61.27","socket_port":8095,"socket_path":"\/socket.io\/1\/websocket\/"},"s96":{"name":"\u58ee\u5fd7\u8bba\u5251","full":1,"index":6,"api_url":"http:\/\/s28.playcrab.com\/ios91\/vms\/index.php","socket_url":"http:\/\/122.11.61.26:8096\/socket.io\/1\/","socket_host":"122.11.61.26","socket_port":8096,"socket_path":"\/socket.io\/1\/websocket\/"},"s97":{"name":"\u60c5\u5251\u6c5f\u6e56","full":1,"index":7,"api_url":"http:\/\/s28.playcrab.com\/ios91\/vms\/index.php","socket_url":"http:\/\/122.11.61.27:8097\/socket.io\/1\/","socket_host":"122.11.61.27","socket_port":8097,"socket_path":"\/socket.io\/1\/websocket\/"},"s98":{"name":"\u6c14\u8d2f\u957f\u8679","full":1,"index":8,"api_url":"http:\/\/s28.playcrab.com\/ios91\/vms\/index.php","socket_url":"http:\/\/122.11.61.26:8098\/socket.io\/1\/","socket_host":"122.11.61.26","socket_port":8098,"socket_path":"\/socket.io\/1\/websocket\/"},"s99":{"name":"\u78a7\u6d77\u4e5d\u5dde","new":1,"index":9,"api_url":"http:\/\/s28.playcrab.com\/ios91\/vms\/index.php","socket_url":"http:\/\/122.11.61.27:8099\/socket.io\/1\/","socket_host":"122.11.61.27","socket_port":8099,"socket_path":"\/socket.io\/1\/websocket\/"},"s100":{"name":"\u5929\u4e0b\u4e89\u9738","new":1,"index":10,"api_url":"http:\/\/s28.playcrab.com\/ios91\/vms\/index.php","socket_url":"http:\/\/122.11.61.26:8100\/socket.io\/1\/","socket_host":"122.11.61.26","socket_port":8100,"socket_path":"\/socket.io\/1\/websocket\/","start_t":1360206000}},"ls":"s95","lt":1360086488,"secs":{"s91":1359642217,"s92":1359642268,"s93":1359986623,"s94":1359642375,"s95":1360086488,"s96":1359643471,"s97":1358393843,"s98":1358394223,"s99":1359614627,"s100":1360037782},"GameStatic":{"activity":{"act_huangrong_0930":{"start_t":1348932600,"end_t":1349625900,"tag":"act_huangrong_0930","started":0},"act_peiyangdan_0930":{"start_t":1348932600,"end_t":1349625900,"tag":"act_peiyangdan_0930","started":0},"act_jianghubaoxiang_0930":{"start_t":1348932600,"end_t":1349625900,"tag":"act_jianghubaoxiang_0930","jianghu_box_prob_add":5000,"started":0},"act_libaoxiangou_0930":{"start_t":1348932600,"end_t":1349625900,"tag":"act_libaoxiangou_0930","started":0},"act_yuebing_0930":{"start_t":1348932600,"end_t":1349625900,"tag":"act_yuebing_0930","const_doushayuebingMax":80,"const_danhuangyuebingMax":160,"const_doushayuebing_prop":10000,"const_danhuangyuebing_prop":15000,"started":0},"act_xuezhan_0930":{"start_t":1348932600,"end_t":1349625900,"battle_cnt_add":3,"tag":"act_xuezhan_0930","started":0},"act_zhaomudizi_0930":{"start_t":1348932600,"end_t":1349625900,"tag":"act_xuezhan_0930","soul_reward_gem_p3":100,"soul_reward_gem_p2":30,"started":0},"act_leijichongzhi_0930":{"start_t":1348932600,"end_t":1349625900,"tag":"act_leijichongzhi_0930","started":0},"act_chongzhiextra_0930":{"start_t":1348932600,"end_t":1349625900,"tag":"act_chongzhiextra_0930","started":0},"act_zhongqiuguoqingqiyupage_0930":{"start_t":1348932600,"end_t":1349625900,"tag":"act_zhongqiuguoqingqiyupage_0930","started":0},"act_huangrong_1017":{"start_t":1356840000,"end_t":1357444800,"alives":{"alive1":{"extraAdd":{"energy":10}},"alive2":{"extraAdd":{"stamina":10}}},"started":0,"tag":"act_huangrong_1017"},"act_magicboxshipin_1017":{"start_t":1349798400,"end_t":1351008000,"const_jifen_require_for_magicbox_shipin":[50000,200000],"const_magicbox_shipin_tag_arr1":[232006],"const_jifen_add_when_buy_magicbox":{"601007":500,"601008":1000,"601009":500,"601010":1000,"601011":1500,"601012":2000},"goodRewardByCount":{"startCount":380,"perCount":400,"maxRewardCount":100,"minVipLevel":0,"maxVipLevel":6,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"232006":1}},"bestRewardByCount":{"startCount":4800,"perCount":5000,"maxRewardCount":10,"minVipLevel":0,"maxVipLevel":4,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"231006":1}},"started":0,"tag":"act_magicboxshipin_1017"},"act_gongcelibao_1017":{"start_t":1349798400,"end_t":1351008000,"started":0,"tag":"act_gongcelibao_1017"},"act_gongcejhsoul_1017":{"start_t":1349798400,"end_t":1351008000,"jhsoul_arr":[{"soultag":"112029","prob":10000},{"soultag":"112012","prob":20000},{"soultag":"112028","prob":30000},{"soultag":"111012","prob":30100}],"started":0,"tag":"act_gongcejhsoul_1017"},"act_dizirecruit_1017":{"start_t":1349798400,"end_t":1351008000,"rewardByCount":{"startCount":950,"perCount":1000,"maxRewardCount":10,"minVipLevel":0,"maxVipLevel":4,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"101016":1}},"rewardSoul":[{"soul":"114003","prob":100000},{"soul":"113016","prob":75000},{"soul":"112029","prob":50000},{"soul":"111016"}],"jifenAddByUser":{"pay2":{"1":10000},"pay3":{"1":50000,"21":30000,"27":50000,"41":30000,"56":100000,"65":30000}},"jifenAddByServer":{"pay2":{"0":13333,"5":6666,"10":3333,"15":0},"pay3":{"0":40000,"5":20000,"10":10000,"15":0}},"started":0,"tag":"act_dizirecruit_1017"},"act_dizirecruit_1101":{"start_t":1349798400,"end_t":1352304000,"rewardByCount":{"startCount":950,"perCount":1000,"maxRewardCount":10,"minVipLevel":0,"maxVipLevel":4,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"101022":1}},"goodRewardSoul":[{"soul":"114041","prob":100000},{"soul":"113038","prob":75000},{"soul":"112028","prob":50000},{"soul":"111015"}],"bestRewardSoul":[{"soul":"114041","prob":100000},{"soul":"113038","prob":75000},{"soul":"112028","prob":50000},{"soul":"111022"}],"jifenAddByUser":{"pay2":{"1":30000},"pay3":{"1":50000,"21":30000,"27":50000,"41":30000,"56":100000,"65":30000}},"jifenAddByServer":{"pay3":{"0":40000,"5":20000,"10":10000,"15":0}},"started":0,"tag":"act_dizirecruit_1101"},"act_lunjian_1101":{"start_t":1349798400,"end_t":1352304000,"win_jifen_times":2,"started":0,"tag":"act_lunjian_1101"},"act_jianghumijiqiyu_1101":{"start_t":1349798400,"end_t":1352304000,"mijiArr":[{"mijiTag":301008,"prob":20000,"point":0},{"mijiTag":301010,"prob":20000,"point":0},{"mijiTag":301013,"prob":20000,"point":0},{"mijiTag":301004,"prob":15000,"point":0},{"mijiTag":302002,"prob":25000,"point":0}],"started":0,"tag":"act_jianghumijiqiyu_1101"},"act_gongcejhsoul_1111":{"start_t":1352563200,"end_t":1352649600,"jhsoul_arr":[{"soultag":"112029","prob":10000},{"soultag":"112030","prob":20000},{"soultag":"112031","prob":30000},{"soultag":"111012","prob":30100}],"started":0,"tag":"act_gongcejhsoul_1111"},"act_dizirecruit_1113":{"start_t":1352908800,"end_t":1353513600,"rewardByCount":{"startCount":950,"perCount":1000,"maxRewardCount":10,"minVipLevel":0,"maxVipLevel":4,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"101031":1}},"goodRewardSoul":[{"soul":"114042","prob":100000},{"soul":"113046","prob":75000},{"soul":"112043","prob":50000},{"soul":"111008"}],"bestRewardSoul":[{"soul":"114042","prob":100000},{"soul":"113046","prob":75000},{"soul":"112043","prob":50000},{"soul":"111031"}],"jifenAddByUser":{"pay2":{"1":30000},"pay3":{"1":45000,"21":25000,"27":45000,"41":25000,"56":95000,"65":25000}},"jifenAddByServer":{"pay3":{"0":40000,"5":20000,"10":10000,"15":0}},"started":0,"tag":"act_dizirecruit_1113"},"act_yaoyiyao":{"start_t":1360382400,"end_t":1360987200,"prob_arr":[{"tag":"gem","num":5,"prob":10000},{"tag":"gem","num":10,"prob":10000},{"tag":"gem","num":15,"prob":10000}],"started":0,"tag":"act_yaoyiyao"},"act_dizirecruit_1128":{"start_t":1354118400,"end_t":1354723200,"rewardByCount":{"startCount":950,"perCount":1000,"maxRewardCount":10,"minVipLevel":0,"maxVipLevel":4,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"101012":1}},"goodRewardSoul":[{"soul":"114037","prob":100000},{"soul":"113034","prob":75000},{"soul":"112010","prob":50000},{"soul":"111011"}],"bestRewardSoul":[{"soul":"114037","prob":100000},{"soul":"113034","prob":75000},{"soul":"112010","prob":50000},{"soul":"111012"}],"jifenAddByUser":{"pay2":{"1":27000},"pay3":{"1":45000,"21":25000,"27":45000,"41":25000,"56":95000,"65":25000}},"jifenAddByServer":{"pay3":{"0":40000,"5":20000,"10":10000,"15":0}},"started":0,"tag":"act_dizirecruit_1128"},"act_jianghumijiqiyu_1128":{"start_t":1354118400,"end_t":1354723200,"mijiArr":[{"mijiTag":301008,"prob":20000,"point":0},{"mijiTag":301010,"prob":25000,"point":0},{"mijiTag":301006,"prob":15000,"point":0},{"mijiTag":301011,"prob":15000,"point":0},{"mijiTag":302003,"prob":25000,"point":0}],"started":0,"tag":"act_jianghumijiqiyu_1128"},"act_jianghumijiqiyu_1213":{"start_t":1355328000,"end_t":1355932800,"mijiArr":[{"mijiTag":301008,"prob":20000,"point":0},{"mijiTag":301010,"prob":25000,"point":0},{"mijiTag":301001,"prob":15000,"point":0},{"mijiTag":301011,"prob":15000,"point":0},{"mijiTag":302003,"prob":25000,"point":0}],"started":0,"tag":"act_jianghumijiqiyu_1213"},"act_dizirecruit_1213":{"start_t":1355328000,"end_t":1355932800,"rewardByCount":{"startCount":950,"perCount":1000,"maxRewardCount":10,"minVipLevel":0,"maxVipLevel":4,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"101023":1}},"goodRewardSoul":[{"soul":"114002","prob":100000},{"soul":"113008","prob":75000},{"soul":"112008","prob":50000},{"soul":"111008"}],"bestRewardSoul":[{"soul":"114002","prob":100000},{"soul":"113008","prob":75000},{"soul":"112008","prob":50000},{"soul":"111023"}],"jifenAddByUser":{"pay2":{"1":27000},"pay3":{"1":45000,"21":25000,"27":45000,"41":25000,"56":95000,"65":25000}},"jifenAddByServer":{"pay3":{"0":40000,"5":20000,"10":10000,"15":0}},"started":0,"tag":"act_dizirecruit_1213"},"activity_caiyuangungun":{"tag":"activity_caiyuangungun","start_t":0,"finish_t":-1,"init_start_t":0,"init_end_t":172800,"init_t":1355932800,"started":0},"act_gongcejhsoul_1217":{"start_t":1355932800,"end_t":1356537600,"jhsoul_arr":[{"soultag":"112019","prob":10000},{"soultag":"112029","prob":20000},{"soultag":"112028","prob":30000},{"soultag":"111022","prob":30600}],"started":0,"tag":"act_gongcejhsoul_1217"},"act_jiaozi_1225":{"start_t":1356580800,"end_t":1357185600,"tag":"act_jiaozi_1225","const_doushayuebingMax":80,"const_danhuangyuebingMax":160,"const_doushayuebing_prop":7000,"const_danhuangyuebing_prop":10000,"started":0},"act_dizirecruit_1227":{"start_t":1356580800,"end_t":1357185600,"rewardByCount":{"startCount":950,"perCount":1000,"maxRewardCount":10,"minVipLevel":0,"maxVipLevel":4,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"101024":1}},"goodRewardSoul":[{"soul":"114036","prob":100000},{"soul":"113018","prob":75000},{"soul":"112038","prob":50000},{"soul":"111026"}],"bestRewardSoul":[{"soul":"114036","prob":100000},{"soul":"113018","prob":75000},{"soul":"112038","prob":50000},{"soul":"111024"}],"jifenAddByUser":{"pay2":{"1":27000},"pay3":{"1":45000,"21":25000,"27":45000,"41":25000,"56":95000,"65":25000}},"jifenAddByServer":{"pay3":{"0":40000,"5":20000,"10":10000,"15":0}},"started":0,"tag":"act_dizirecruit_1227"},"act_chongzhifanyuanbao_1":{"tag":"act_chongzhifanyuanbao_1","start_t":0,"end_t":-1,"rewarddays":10,"limit_floor":100,"limit_ceil":2000,"gem_times":5,"init_t":1356623940,"init_start_d":3,"init_end_d":5,"started":1},"act_chongzhifanyuanbao_2":{"tag":"act_chongzhifanyuanbao_2","start_t":0,"end_t":-1,"rewarddays":30,"limit_floor":100,"limit_ceil":2000,"gem_times":10,"init_t":1359043140,"init_start_d":16,"init_end_d":19,"started":1},"act_jianghumijiqiyu_1230":{"start_t":1356840000,"end_t":1357444800,"mijiArr":[{"mijiTag":301008,"prob":20000,"point":0},{"mijiTag":301010,"prob":23000,"point":0},{"mijiTag":301005,"prob":15000,"point":0},{"mijiTag":301007,"prob":15000,"point":0},{"mijiTag":302003,"prob":25000,"point":0},{"mijiTag":301003,"prob":2000,"point":0}],"started":0,"tag":"act_jianghumijiqiyu_1230"},"act_dizirecruit_130117":{"start_t":1358395200,"end_t":1359000000,"rewardByCount":{"startCount":950,"perCount":1000,"maxRewardCount":10,"minVipLevel":0,"maxVipLevel":4,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"101016":1}},"goodRewardSoul":[{"soul":"114024","prob":100000},{"soul":"113009","prob":75000},{"soul":"112029","prob":50000},{"soul":"111009"}],"bestRewardSoul":[{"soul":"114024","prob":100000},{"soul":"113009","prob":75000},{"soul":"112029","prob":50000},{"soul":"111016"}],"jifenAddByUser":{"pay2":{"1":27000},"pay3":{"1":45000,"21":25000,"27":45000,"41":25000,"56":95000,"65":25000}},"jifenAddByServer":{"pay3":{"0":40000,"5":20000,"10":10000,"15":0}},"started":0,"tag":"act_dizirecruit_130117"},"act_gongcejhsoul_130117":{"start_t":1358395200,"end_t":1359000000,"jhsoul_arr":[{"soultag":"112012","prob":10000},{"soultag":"112031","prob":20000},{"soultag":"112028","prob":30000},{"soultag":"112030","prob":40000}],"started":0,"tag":"act_gongcejhsoul_130117"},"act_xiaobao_130124":{"start_t":1359000000,"end_t":1359604800,"factor":2,"started":0,"tag":"act_xiaobao_130124"},"act_langhuanfudi":{"start_t":1360209600,"end_t":1360468800,"started":0,"tag":"act_langhuanfudi"},"act_dizirecruit_130131":{"start_t":1359604800,"end_t":1360209600,"rewardByCount":{"startCount":950,"perCount":1000,"maxRewardCount":10,"minVipLevel":0,"maxVipLevel":4,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"101037":1}},"goodRewardSoul":[{"soul":"114015","prob":100000},{"soul":"113032","prob":75000},{"soul":"112050","prob":50000},{"soul":"111022"}],"bestRewardSoul":[{"soul":"114015","prob":100000},{"soul":"113032","prob":75000},{"soul":"112050","prob":50000},{"soul":"111037"}],"jifenAddByUser":{"pay2":{"1":20000},"pay3":{"1":40000,"21":20000,"27":40000,"41":20000,"56":90000,"65":20000}},"jifenAddByServer":{"pay3":{"0":42000,"5":22000,"10":12000,"15":0}},"started":1,"tag":"act_dizirecruit_130131"},"act_jianghumijiqiyu_130131":{"start_t":1359604800,"end_t":1360209600,"mijiArr":[{"mijiTag":301004,"prob":15000,"point":0},{"mijiTag":301010,"prob":15000,"point":0},{"mijiTag":301013,"prob":15000,"point":0},{"mijiTag":301012,"prob":15000,"point":0},{"mijiTag":302013,"prob":20000,"point":0},{"mijiTag":302001,"prob":20000,"point":0}],"started":1,"tag":"act_jianghumijiqiyu_130131"},"act_worldboss_1002":{"start_t":1360166400,"end_t":1361894400,"started":0,"tag":"act_worldboss_1002"},"act_dizirecruit_130209":{"start_t":1360382400,"end_t":1361073600,"rewardByCount":{"startCount":950,"perCount":1000,"maxRewardCount":10,"minVipLevel":0,"maxVipLevel":4,"minUserLevel":10,"maxUserLevel":300,"randRewardArr":{"101033":1}},"goodRewardSoul":[{"soul":"114036","prob":100000},{"soul":"113049","prob":75000},{"soul":"112051","prob":50000},{"soul":"111011"}],"bestRewardSoul":[{"soul":"114036","prob":100000},{"soul":"113049","prob":75000},{"soul":"112051","prob":50000},{"soul":"111033"}],"jifenAddByUser":{"pay2":{"1":20000},"pay3":{"1":40000,"21":20000,"27":40000,"41":20000,"56":90000,"65":20000}},"jifenAddByServer":{"pay3":{"0":42000,"5":22000,"10":12000,"15":0}},"started":0,"tag":"act_dizirecruit_130209"},"act_gongcejhsoul_130214":{"start_t":1360814400,"end_t":1361419200,"jhsoul_arr":[{"soultag":"112019","prob":10000},{"soultag":"112029","prob":20000},{"soultag":"112028","prob":30000},{"soultag":"111022","prob":30100}],"started":0,"tag":"act_gongcejhsoul_130214"}},"closeCdkeyInput":false,"openWorldBossLevel":13,"showLogoutBtnInSetting":false,"isAlwaysAllowSkipBattle":false,"isSuperMode":false},"_t":1360086644}
+[2013-02-06 01:50:46][DEBUG]WaitingLayerHandler:removeWaitingIcon fromPreGameScreen.checkServerInfoOk
+[2013-02-06 01:50:46][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:50:46][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:50:47][DEBUG]WaitingLayerHandler:showWaitingIcon from PreGameScreen.showTouchEnterGame
+[2013-02-06 01:50:47][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:50:47][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:50:50][DEBUG]requestbegin,{"m":"System.login","p":{"pid":"ios91_323732360","signature":"6bdc42f2548bce79a3e121ba3678cb1a","mac_address":"786C1CD8387E","app_channel_id":"3","app_channel_name":"test","user_info":{"mac_address":"786C1CD8387E","ios_version":"6.0.1","open_cnt":102,"ios_platform":"","device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250","ios_model":"","app_build_num":"413","os_platform":"ios"},"device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250","sec":"s95","timestamp":1360086650,"source":"3"}}
+[2013-02-06 01:50:53][DEBUG]request,{"m":"System.login","p":{"pid":"ios91_323732360","signature":"6bdc42f2548bce79a3e121ba3678cb1a","mac_address":"786C1CD8387E","app_channel_id":"3","app_channel_name":"test","user_info":{"mac_address":"786C1CD8387E","ios_version":"6.0.1","open_cnt":102,"ios_platform":"","device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250","ios_model":"","app_build_num":"413","os_platform":"ios"},"device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250","sec":"s95","timestamp":1360086650,"source":"3"}}
+[2013-02-06 01:50:53][DEBUG]response,{"s":"OK","pid":"ios91_323732360","istest":1,"ups":{"$set":{"_ld":{"pid":"ios91_323732360","signature":"6bdc42f2548bce79a3e121ba3678cb1a","mac_address":"786C1CD8387E","app_channel_id":"3","app_channel_name":"test","user_info":{"mac_address":"786C1CD8387E","ios_version":"6.0.1","open_cnt":102,"ios_platform":"","device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250","ios_model":"","app_build_num":"413","os_platform":"ios"},"device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250","sec":"s95","timestamp":1360086650,"source":"3"},"ls":"s95","_at":1360086649,"secs.s95":1360086649,"macs.786C1CD8387E":1360086649},"$inc":{"macs_ct.786C1CD8387E":1}},"d":{"_at":1360086649,"_id":50217,"_ld":{"pid":"ios91_323732360","signature":"6bdc42f2548bce79a3e121ba3678cb1a","mac_address":"786C1CD8387E","app_channel_id":"3","app_channel_name":"test","user_info":{"mac_address":"786C1CD8387E","ios_version":"6.0.1","open_cnt":102,"ios_platform":"","device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250","ios_model":"","app_build_num":"413","os_platform":"ios"},"device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250","sec":"s95","timestamp":1360086650,"source":"3"},"ls":"s95","macs":{"786C1CD8387E":1360086649},"macs_ct":{"786C1CD8387E":51},"secs":{"s95":1360086649}},"ss":{"gtime":1360086649,"at":1360086649,"sec":"s95","source":"test3","init_time":1354506399,"vip":8,"lvl":25,"vPexpf":null,"vlvl":0,"device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250","mac_address":"786C1CD8387E","istest":1},"isnew":0,"cid":"NCsrLzNWMC4vLiwvNTEtN1tqODA","uid":50217,"_t":1360086649}
+[2013-02-06 01:50:53][DEBUG]requestbegin,{"m":"User.get","p":{"signature":"ec03bfd045edaafb6c2a1c646f272599","timestamp":1360086649,"u":50217,"sec":"s95","mac_address":"786C1CD8387E","device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250"}}
+[2013-02-06 01:50:53][DEBUG]request,{"m":"User.get","p":{"signature":"ec03bfd045edaafb6c2a1c646f272599","timestamp":1360086649,"u":50217,"sec":"s95","mac_address":"786C1CD8387E","device_id":"616BF655-A1C3-4AA4-9C87-B7A57A83C250"}}
+[2013-02-06 01:50:53][DEBUG]response,{"d":{"_id":50217,"_it":1354506399,"_ll":{"cd":23,"daily_award":[{"tag":"601015","num":1},{"tag":"money","num":25401},{"tag":"112013","num":1}],"daily_award_accepted":1,"daily_award_just_show":["302016","302006","302009","601014","114012","114013","114030","114031","601019"],"lt":1360086491},"bag":{"601001":3,"601002":2,"601003":2,"601004":14,"601005":27,"601006":0,"601007":0,"601008":1,"601009":0,"601010":1,"601011":3,"601012":0,"601013":11,"601014":8,"601015":71,"601019":2823,"601021":40,"601052":0,"601053":4,"601054":0,"601055":0,"601056":0,"601057":0,"601058":0,"601059":0,"601060":0,"601061":0,"601062":4,"601063":0,"601064":0,"601065":0,"601066":0,"601067":0,"601068":0,"601069":0,"601070":0,"601071":3,"601072":0,"601073":0,"601074":0,"601075":0,"601076":0,"601077":0,"601078":0,"601079":0,"601080":0,"601099":0,"601100":0,"601802":0,"602002":0,"602004":0,"602005":0,"602006":0,"602007":0,"602008":0,"602015":0,"602056":0},"boxlimit":{"chuangongdanPoint":47000,"magicbox_pool_1":92,"magicbox_pool_2":162,"magicbox_pool_3":22,"magicbox_pool_4":5,"magickey_pool_1":3,"magickey_pool_2":3,"magickey_pool_3":4,"magickey_pool_4":0,"moneyNum":23655,"nverhongPoint":23320,"peiyangdanNum":489155,"wugongPoint_q1":0,"wugongPoint_q2":4187000,"wugongPoint_q3":123820,"wugongPoint_q4":58720,"zhangmentiePoint":63070,"zhijunChuangongdanPoint":56200,"zhuangbeiPoint_q1":50000,"zhuangbeiPoint_q2":89155,"zhuangbeiPoint_q3":64500,"zhuangbeiPoint_q4":38675},"buylimit":{"peiyangdan_top7":{"count":1,"last_t":1358916657},"602002":{"count":1,"last_t":1355501612},"602004":{"count":1,"last_t":1355936956},"602005":{"count":1,"last_t":1355936892},"602006":{"count":1,"last_t":1358397411},"602007":{"count":1,"last_t":1358397399},"602008":{"count":1,"last_t":1358397373},"602015":{"count":1,"last_t":1360052068},"602056":{"count":1,"last_t":1355987180}},"canzhang":{"3010081":0,"3010082":0,"3010083":0,"3010084":0,"3010085":0,"3010086":0,"3010105":0,"3020033":0,"3020061":0,"3020062":0,"3020063":0,"3020064":0,"3030051":0,"3030052":0,"3030053":0,"3030054":0,"3030071":1,"3030081":0,"3030082":0,"3030083":2,"3030111":0,"3030112":0,"3030113":0},"chenghao":{"10001":{"tag":10001,"create_t":1355495258,"level":8},"10002":{"tag":10002,"create_t":1358394933,"level":8},"10003":{"tag":"10003","level":5,"create_t":1355542683},"10011":{"tag":"10011","level":2,"create_t":1355891488},"10019":{"tag":"10019","level":31,"create_t":1355408830},"10020":{"tag":"10020","level":3,"create_t":1355498842}},"cnt_friends":15,"cnt_miji_qiyu":5,"daily":{"bloodybattle_cnt":0,"cd1num":0,"cnt_energy_add":0,"cnt_stamina_add":0,"daily_money_add":25401,"daily_money_minus":0,"energy_buy_cnt":0,"expire_t":1360166400,"lunjian_cnt":0,"today_zhenqi_exp_point":158.44863957168,"today_zhenqi_point_3":2640.8106595279,"today_zhenqi_point_4":3961.2159892919,"wishingtree_free_cnt":0,"wishingtree_pay_cnt":0},"device_id":"023714D4-82B9-4BC4-999F-8A7F61DBE1A4","dragonvein":{"expire_t":1360101600,"cur_step":4,"treasures_get":{"money":15000,"601091":1},"cnt_free_chances":0,"treasures":[[],{"num":15000,"prob":60000,"step_prob":1000,"tag":"money","recev_t":1360038078},{"num":30,"prob":15000,"step_prob":0,"tag":"gem"},{"num":1,"prob":5000,"step_prob":5000,"tag":"601082"},{"num":1,"prob":5000,"step_prob":5000,"tag":"601091","recev_t":1360038080},{"num":1,"prob":100000,"step_prob":2000,"tag":"torch"},{"num":15000,"prob":60000,"step_prob":1000,"tag":"money"},{"num":22500,"prob":35000,"step_prob":1000,"tag":"money"},{"num":1,"prob":20000,"step_prob":1000,"tag":"601090"},{"num":1,"prob":5000,"step_prob":0,"tag":"601080"},{"num":1,"prob":100000,"step_prob":1,"tag":"triple"},{"num":15000,"prob":60000,"step_prob":1000,"tag":"money"},{"num":22500,"prob":30000,"step_prob":1000,"tag":"money"},{"num":40,"prob":5000,"step_prob":5000,"tag":"gem"},{"num":1,"prob":15000,"step_prob":1000,"tag":"601091"},{"num":1,"point":15000,"step_prob":100000,"tag":"601093"},{"num":15000,"prob":60000,"step_prob":1000,"tag":"money"},{"num":30,"prob":17000,"step_prob":0,"tag":"gem"},{"num":40,"prob":13000,"step_prob":0,"tag":"gem"},{"num":1,"point":8888,"step_prob":100000,"tag":"601080"},{"num":2,"prob":100000,"step_prob":1000,"tag":"torch"}],"triple":0,"history_cnt_pay":159},"dragonveinpoints":{"14_601052_1":10000,"14_601080_1":62000,"15_601080_1":62000,"15_601093_1":130000,"15_601094_1":10000,"15_601095_1":62000,"19_601052_1":44440,"19_601080_1":101700},"duomiji_piont":300000,"duomiji_point":-60000,"eluck":5,"energy":{"eadd":0,"t":1359987722,"v":11,"vmax":0,"wt":21600,"used":276,"rt":1359993600},"equipments":{"e_50bc96f101c16":{"create_t":1354536688,"level":68,"money_cost_history":327834,"tag":"213002"},"e_50cbed6445ff3":{"tag":"214007","level":1,"create_t":1355541860},"e_50cb2ee73d2b7":{"create_t":1355493095,"level":73,"money_cost_history":653760,"tag":233004},"e_50cb3fca5634d":{"tag":"224009","level":1,"create_t":1355497418},"e_50cb35ce933ac":{"create_t":1355494862,"level":40,"money_cost_history":32940,"tag":"214010"},"e_50cb300e229ad":{"create_t":1355493390,"level":36,"money_cost_history":22392,"tag":"214008"},"e_50cb365e7d807":{"create_t":1355495006,"level":40,"money_cost_history":12624,"tag":"224007"},"e_50cb5077b0d0a":{"create_t":1355501687,"level":72,"money_cost_history":248160,"tag":"223001"},"e_50cb5648ebfa7":{"create_t":1355503176,"level":42,"money_cost_history":37512,"tag":"214009"},"e_50ccb22acdc16":{"tag":"224004","level":1,"create_t":1355592234},"e_50ccb320eff3b":{"create_t":1355592480,"level":65,"money_cost_history":297918,"tag":"213008"},"e_50ccb549a05d9":{"tag":"224007","level":1,"create_t":1355593033},"e_50cc7aacd6b40":{"tag":"214006","level":1,"create_t":1355578028},"e_50cc8f780b68c":{"tag":"214008","level":1,"create_t":1355583352},"e_50cc84b594247":{"tag":"224005","level":1,"create_t":1355580597},"e_50cc929ec5c5b":{"tag":"224008","level":1,"create_t":1355584158},"e_50cc77992ad18":{"create_t":1355577241,"level":47,"money_cost_history":35664,"tag":"223007"},"e_50c7fc77395f3":{"create_t":1355283575,"level":69,"money_cost_history":357024,"tag":234009},"e_50c83cf305690":{"create_t":1355300083,"level":40,"money_cost_history":11520,"tag":"224009"},"e_50c8457a2a492":{"create_t":1355302266,"level":42,"money_cost_history":12804,"tag":"224008"},"e_50dacd407cb4b":{"tag":"214004","level":1,"create_t":1356516672},"e_50dacd24293b0":{"tag":"214006","level":1,"create_t":1356516644},"e_50dacd6118680":{"tag":"224006","level":1,"create_t":1356516705},"e_50dace99f0742":{"tag":"223007","level":1,"create_t":1356517017},"e_50da65bb90281":{"tag":"224005","level":1,"create_t":1356490171},"e_50dbbf57c4c18":{"tag":"214005","level":1,"create_t":1356578647},"e_50dbc14bcfbf2":{"tag":"224004","level":1,"create_t":1356579147},"e_50dbc0292ab95":{"tag":"214004","level":1,"create_t":1356578857},"e_50ddbd8a549a9":{"tag":"224004","level":1,"create_t":1356709258},"e_50dec7a0e6241":{"tag":"214004","level":1,"create_t":1356777376},"e_50dec729108b8":{"create_t":1356777257,"level":63,"money_cost_history":65556,"tag":"224006"},"e_50dfbf2c3bb2d":{"create_t":1356840748,"level":75,"money_cost_history":645768,"tag":212002,"refine_exp":131,"refine_level":2},"e_50d1e68197369":{"tag":"214005","level":1,"create_t":1355933313},"e_50d1f4c50033b":{"create_t":1355936964,"level":73,"money_cost_history":516078,"tag":"213004"},"e_50d1f4e2b653f":{"create_t":1355936994,"level":42,"money_cost_history":67068,"tag":"213007"},"e_50d1f9c39bb4e":{"create_t":1355938243,"level":46,"money_cost_history":31032,"tag":"223004"},"e_50d1f81fe3832":{"tag":"224004","level":1,"create_t":1355937823},"e_50d1f9798b9fd":{"tag":"224007","level":1,"create_t":1355938169},"e_50d1f483679bf":{"create_t":1355936899,"level":75,"money_cost_history":1083936,"tag":232003,"refine_exp":18,"refine_level":3},"e_50d2b8eca468c":{"create_t":1355987180,"level":75,"money_cost_history":663696,"tag":233007},"e_50d5a9db41cae":{"create_t":1356179931,"level":46,"money_cost_history":43032,"tag":"223007"},"e_50d5fab26fde9":{"create_t":1356200626,"level":63,"money_cost_history":278694,"tag":"213001"},"e_50d5facde7029":{"tag":"214005","level":1,"create_t":1356200653},"e_50d5fd49a2ad0":{"create_t":1356201289,"level":62,"money_cost_history":183870,"tag":"213003"},"e_50d5fd0208d9c":{"tag":"214006","level":1,"create_t":1356201218},"e_50d5f4d76fc5c":{"create_t":1356199127,"level":73,"money_cost_history":190944,"tag":"223008"},"e_50d5f8dc2c09b":{"tag":"224006","level":1,"create_t":1356200156},"e_50d5f74a4fe9f":{"tag":"214007","level":1,"create_t":1356199754},"e_50d5f973d4bef":{"tag":"224004","level":1,"create_t":1356200307},"e_50d6cd26a7381":{"tag":"214006","level":1,"create_t":1356254502},"e_50d6d0ab79543":{"tag":"214006","level":1,"create_t":1356255403},"e_50d6d5bf182d8":{"create_t":1356256703,"level":66,"money_cost_history":117408,"tag":"223003"},"e_50d6d36ca7f0a":{"tag":"214004","level":1,"create_t":1356256108},"e_50d9cc6f6acc2":{"create_t":1356450927,"level":73,"money_cost_history":383004,"tag":"222005","refine_exp":34,"refine_level":2},"e_50d9c4ffae6aa":{"create_t":1356449023,"level":73,"money_cost_history":407592,"tag":"222004","refine_exp":7,"refine_level":2},"e_50d9d849223e0":{"create_t":1356453961,"level":73,"money_cost_history":280764,"tag":"222004","refine_exp":89,"refine_level":2},"e_50d49f953e205":{"tag":"214003","level":1,"create_t":1356111765},"e_50d98f01e29fb":{"create_t":1356435201,"level":73,"money_cost_history":744768,"tag":233003},"e_50d602bc6fa9f":{"tag":"213007","level":1,"create_t":1356202684},"e_50d994ce373c1":{"tag":"223003","level":1,"create_t":1356436686},"e_50d6038f521c4":{"tag":"214007","level":1,"create_t":1356202895},"e_50d6039d14fce":{"tag":"224009","level":1,"create_t":1356202909},"e_50d6017175048":{"tag":"224005","level":1,"create_t":1356202353},"e_50ea72e55f552":{"tag":"224004","level":1,"create_t":1357542117},"e_50e05df037b5f":{"tag":"224002","level":1,"create_t":1356881392},"e_50e06eaca78c1":{"tag":"224006","level":1,"create_t":1356885676},"e_50e06e73786f0":{"tag":"224006","level":1,"create_t":1356885619},"e_50e06f0b456c5":{"tag":"224004","level":1,"create_t":1356885771},"e_50e13fdac5726":{"tag":"301010","level":3,"create_t":1356939226},"e_50e13fe7ba37f":{"tag":"302005","level":3,"create_t":1356939239},"e_50e059fdb6e50":{"tag":"223007","level":1,"create_t":1356880381},"e_50e271825bef4":{"tag":"302005","level":3,"create_t":1357017474},"e_50fae0e2c7c57":{"create_t":1358618850,"level":76,"money_cost_history":660528,"tag":233003},"e_50fa663f59bfd":{"tag":"224003","level":1,"create_t":1358587455},"e_50ffe2ed31a3c":{"tag":"224004","level":1,"create_t":1358947053},"e_50ffe31e6287d":{"tag":"223001","level":1,"create_t":1358947102},"e_50ffe35d13d6c":{"tag":"214005","level":1,"create_t":1358947165},"e_50ffe47e2c452":{"tag":"224005","level":1,"create_t":1358947454},"e_50ffe447f0ce2":{"tag":"214003","level":1,"create_t":1358947399},"e_50ffe2189cd3e":{"tag":"214004","level":1,"create_t":1358946840},"e_50ff600624765":{"tag":"223001","level":1,"create_t":1358913542},"e_50f6a1700cf52":{"tag":"214004","level":1,"create_t":1358340463},"e_50f77ffa043ec":{"create_t":1358397433,"level":72,"money_cost_history":281844,"tag":222001,"refine_exp":4,"refine_level":2},"e_50f77ff2d2c3e":{"create_t":1358397426,"level":74,"money_cost_history":836556,"tag":232004,"refine_exp":97,"refine_level":2},"e_50f77ff2d2848":{"create_t":1358397426,"level":75,"money_cost_history":424296,"tag":221003,"refine_exp":77,"refine_level":2},"e_50f77ff6cee8d":{"create_t":1358397430,"level":72,"money_cost_history":645552,"tag":212001,"refine_exp":2,"refine_level":2},"e_50f7800df37a2":{"tag":"223001","level":1,"create_t":1358397453},"e_50f7802c45703":{"create_t":1358397484,"level":73,"money_cost_history":1071900,"tag":"211005","refine_exp":52,"refine_level":2},"e_50f78022e5552":{"create_t":1358397474,"level":72,"money_cost_history":806040,"tag":"212002","refine_exp":29,"refine_level":2},"e_50f78029de7b3":{"create_t":1358397481,"level":76,"money_cost_history":616680,"tag":"212005","refine_exp":6,"refine_level":2},"e_510a84aac1f4d":{"create_t":1359643818,"level":73,"money_cost_history":715968,"tag":233004},"e_510bddde79b9d":{"tag":"213004","level":1,"create_t":1359732190},"e_510bee0e207f3":{"tag":"214001","level":1,"create_t":1359736334},"e_510be28d20760":{"tag":"214001","level":1,"create_t":1359733389},"e_510be499b7eb2":{"tag":"214001","level":1,"create_t":1359733913},"e_510b78d764c18":{"tag":"213003","level":1,"create_t":1359706327},"e_5100bdcbc7f11":{"tag":"303001","level":5,"create_t":1359003083,"exp":18},"e_5100bdf2e2cbe":{"tag":"303002","level":5,"create_t":1359003122},"e_5100bd9674ef0":{"tag":"301010","level":4,"create_t":1359003030},"e_5100be1602ae6":{"create_t":1359003157,"level":72,"money_cost_history":639630,"tag":211004,"refine_exp":59,"refine_level":2},"e_5100b7d496622":{"tag":"302005","level":4,"create_t":1359001556,"exp":33},"e_5100b771dfa48":{"tag":"302005","level":3,"create_t":1359001457},"e_5100b813be6ee":{"tag":"302005","level":4,"create_t":1359001619},"e_5102ab46452bb":{"tag":"224003","level":1,"create_t":1359129414},"e_5102bc21b99d7":{"tag":"224001","level":1,"create_t":1359133729},"e_5102bd4ab6a72":{"tag":"223003","level":1,"create_t":1359134026},"e_5102b7d84f990":{"tag":"223004","level":1,"create_t":1359132632},"e_5103b61f2d777":{"tag":"224001","level":1,"create_t":1359197727},"e_5104cb71cd454":{"tag":"223005","level":1,"create_t":1359268721},"e_5104ccaa70b5f":{"tag":"214004","level":1,"create_t":1359269034},"e_5104ccec00340":{"tag":"214002","level":1,"create_t":1359269099},"e_5104cec8b0f34":{"tag":"224002","level":1,"create_t":1359269576},"e_5104ce9b1ef29":{"tag":"224002","level":1,"create_t":1359269531},"e_5110bd4823c64":{"tag":"224002","level":1,"create_t":1360051528},"e_5110b5bc74478":{"tag":"214002","level":1,"create_t":1360049596},"e_5110b98ac8486":{"tag":"214002","level":1,"create_t":1360050570},"e_51012cd7b45a1":{"tag":"224003","level":1,"create_t":1359031511},"e_51020ee2c0aa7":{"tag":"224002","level":1,"create_t":1359089378},"e_51026e0662956":{"tag":"223005","level":1,"create_t":1359113734},"e_51039d41169cf":{"tag":"303003","level":4,"create_t":1359191361,"exp":17},"e_510273ebc7915":{"tag":"214003","level":1,"create_t":1359115243},"e_510617df32316":{"tag":"224001","level":1,"create_t":1359353823},"e_510619cda5e80":{"tag":"224004","level":1,"create_t":1359354317},"e_5101337e25acb":{"create_t":1359033214,"level":74,"money_cost_history":264960,"tag":"222002","refine_exp":48,"refine_level":2},"e_5102072c01ba1":{"tag":"302016","level":3,"create_t":1359087403},"e_51013329e7ce8":{"tag":"223006","level":1,"create_t":1359033129},"e_51013372c1781":{"tag":"213002","level":1,"create_t":1359033202},"e_51013378a2377":{"tag":"223005","level":1,"create_t":1359033208},"e_51023655c5a5b":{"tag":"224002","level":1,"create_t":1359099477},"e_51027191b4d9c":{"tag":"214003","level":1,"create_t":1359114641},"e_51061557edb8e":{"tag":"213007","level":1,"create_t":1359353175},"e_510133700bce0":{"tag":"213002","level":1,"create_t":1359033200},"e_510133775d923":{"tag":"213003","level":1,"create_t":1359033207},"e_510231330dcfa":{"tag":"214002","level":1,"create_t":1359098163},"e_5106156272e2e":{"tag":"213001","level":1,"create_t":1359353186},"e_51013371773a7":{"tag":"213001","level":1,"create_t":1359033201},"e_5101326540544":{"tag":"214001","level":1,"create_t":1359032933},"eq_213004":{"level":64,"money_cost_history":250344,"tag":"213004"},"eq_214005":{"level":7,"money_cost_history":756,"tag":"214005"},"eq_224001":{"level":44,"money_cost_history":15936,"tag":"224001"},"mj510d4abd1ade1":{"tag":"301008","level":1},"mj5102aff87acb4":{"tag":"301008","level":1},"mj5102b372bcc2d":{"tag":"302006","level":1},"s_50cf49732f98b":{"tag":"302013","level":1,"create_t":1355762035},"s_50dbc192dd2bd":{"tag":"303003","level":4,"create_t":1356579218,"exp":11},"s_50dbc39154b30":{"tag":"302010","level":1,"create_t":1356579729},"s_50dbc39479d36":{"tag":"302007","level":1,"create_t":1356579732},"s_50ddcca07117d":{"tag":"302012","level":1,"create_t":1356713120},"s_50def6ac1474b":{"tag":"302001","level":3,"create_t":1356789420,"exp":2},"s_50def09d5df70":{"tag":"302005","level":3,"create_t":1356787869},"s_50def179eb48b":{"tag":"302001","level":3,"create_t":1356788089,"exp":7},"s_50def182a6b34":{"tag":"301010","level":3,"create_t":1356788098},"s_50def182a6efa":{"tag":"301010","level":3,"create_t":1356788098},"s_50def182a7301":{"tag":"301010","level":4,"create_t":1356788098,"exp":18},"s_50def6957b047":{"tag":"302005","level":3,"create_t":1356789397},"s_50def73170882":{"tag":"302005","level":3,"create_t":1356789553},"s_50de8e5daada2":{"tag":"302007","level":1,"create_t":1356762717},"s_50de8e6071ca2":{"tag":"303003","level":3,"create_t":1356762720,"exp":6},"s_50df18c674150":{"tag":301013,"level":2,"create_t":1356798150,"exp":12},"s_50d1e6366fa99":{"tag":301011,"level":1,"create_t":1355933238},"s_50d1f4dac7727":{"tag":"301007","level":2,"create_t":1355936986,"exp":6},"s_50d1f4eb7db70":{"tag":"302017","level":1,"create_t":1355937003},"s_50d1f4f3ad46a":{"tag":"301009","level":2,"create_t":1355937011,"exp":2},"s_50d864a0a53e4":{"tag":"301009","level":1,"create_t":1356358816},"s_50e04b7d57f58":{"tag":"302008","level":1,"create_t":1356876669},"s_50e04b776cbdb":{"tag":"302013","level":1,"create_t":1356876663},"s_50e06c3226e6e":{"tag":"301013","level":1,"create_t":1356885042},"s_50e053c5d0171":{"tag":"302010","level":1,"create_t":1356878789},"s_50e0702b1b682":{"tag":"303002","level":1,"create_t":1356886059},"s_50e05323e6176":{"tag":"302016","level":1,"create_t":1356878627},"s_50e0750417dcc":{"tag":"302013","level":1,"create_t":1356887300},"s_50fae25186de2":{"tag":"302009","level":1,"create_t":1358619217},"s_50fa5dea1641a":{"tag":"302001","level":3,"create_t":1358585322,"exp":23},"s_50fa5de0bb02c":{"tag":"303001","level":2,"create_t":1358585312},"s_50ff600a17b7e":{"tag":"301010","level":1,"create_t":1358913546},"s_50f7805acb7da":{"tag":"302011","level":1,"create_t":1358397530},"s_50f7806aca79a":{"tag":"302010","level":1,"create_t":1358397546},"s_50f7806ce8974":{"tag":"302014","level":1,"create_t":1358397548},"s_50f7806f4d390":{"tag":"302013","level":1,"create_t":1358397551},"s_50f78057da931":{"tag":"301011","level":1,"create_t":1358397527},"s_50f78066e5d1b":{"tag":"302009","level":1,"create_t":1358397542},"s_50f780440dc41":{"tag":"302007","level":1,"create_t":1358397508},"s_50f7803139f30":{"tag":"301013","level":1,"create_t":1358397489},"s_50f7803788b6a":{"tag":"303002","level":1,"create_t":1358397495},"s_510bdccb1e24a":{"tag":"303004","level":1,"create_t":1359731915},"s_510bdcceadf11":{"tag":"303011","level":1,"create_t":1359731918},"s_510bdcd033f0f":{"tag":"303004","level":1,"create_t":1359731920},"s_510bddbe6d025":{"tag":"303007","level":1,"create_t":1359732158},"s_510be212ef7ab":{"tag":"303004","level":1,"create_t":1359733266},"s_510be215983ba":{"tag":"303004","level":1,"create_t":1359733269},"s_510bf000a3e40":{"tag":"302005","level":1,"create_t":1359736832},"s_510b2da1e5aea":{"tag":"303006","level":1,"create_t":1359687073},"s_510b2da3ce587":{"tag":"303001","level":1,"create_t":1359687075},"s_510b2d9f13b1a":{"tag":"303009","level":1,"create_t":1359687071},"s_510b2eac7d6ca":{"tag":"303009","level":1,"create_t":1359687340},"s_510cbf82a4ccc":{"tag":"303009","level":1,"create_t":1359789954},"s_510d34fbb339f":{"tag":"303007","level":1,"create_t":1359820027},"s_5102ada2b8520":{"tag":301011,"level":1,"create_t":1359130018},"s_5104cc5641631":{"tag":"303010","level":1,"create_t":1359268950},"s_5104cd2061161":{"tag":"303004","level":1,"create_t":1359269152},"s_5104c8cc118af":{"tag":"302010","level":1,"create_t":1359268044},"s_5104d0c2e4d45":{"tag":"303008","level":1,"create_t":1359270082},"s_5110b4ae01546":{"tag":"302007","level":1,"create_t":1360049325},"s_51061e0661cf4":{"tag":"303002","level":2,"create_t":1359355398},"s_51064bda97276":{"tag":"303007","level":1,"create_t":1359367130},"s_51064bdc61e4e":{"tag":"303003","level":1,"create_t":1359367132},"s_51064bde9f3ab":{"tag":"303002","level":1,"create_t":1359367134},"s_51064be27a146":{"tag":"303008","level":1,"create_t":1359367138},"s_51064be099639":{"tag":"303006","level":1,"create_t":1359367136},"s_510892c788d32":{"tag":"303005","level":1,"create_t":1359516359},"s_5101330927a76":{"tag":"302009","level":1,"create_t":1359033097},"s_5108920501d2c":{"tag":"303010","level":2,"create_t":1359516164},"s_51013374126d5":{"tag":"302008","level":1,"create_t":1359033204},"s_5108920501529":{"tag":"303010","level":2,"create_t":1359516164},"s_5108920501933":{"tag":"303010","level":2,"create_t":1359516164},"z_510a6f1535bb8":{"tag":"402021","level":1,"create_t":1359638292},"z_510a6f43960b8":{"tag":"402061","level":1,"create_t":1359638339},"z_510a70dcb0bc3":{"tag":"402041","level":1,"create_t":1359638747},"z_510a70e57fcf8":{"tag":"402041","level":1,"create_t":1359638756},"z_510a70e317d30":{"tag":"402041","level":1,"create_t":1359638752},"z_510a70fc616e0":{"tag":"402071","level":1,"create_t":1359638780},"z_510a88b662ddd":{"tag":"403011","level":2,"create_t":1359644854,"exp":750},"z_510a88b623182":{"tag":"402041","level":1,"create_t":1359644854},"z_510a88c4bf966":{"tag":"402051","level":1,"create_t":1359644868},"z_510a88d1686e0":{"tag":"402011","level":1,"create_t":1359644881},"z_510a716a58929":{"tag":"402041","level":1,"create_t":1359638888},"z_510a7043b584d":{"tag":"402021","level":1,"create_t":1359638595},"z_510a7154bea77":{"tag":"403041","level":1,"create_t":1359638866},"z_510a71678d7a2":{"tag":"402011","level":1,"create_t":1359638884},"z_510bda55b7dd1":{"tag":"402021","level":1,"create_t":1359731285},"z_510bda3141c80":{"tag":"402061","level":1,"create_t":1359731249},"z_510b3cd7297d0":{"tag":"402041","level":1,"create_t":1359690967},"z_510b8af19b6bd":{"tag":"402041","level":1,"create_t":1359710961},"z_510b817abb576":{"tag":"403011","level":1,"create_t":1359708538,"exp":120},"z_510b8133ae30a":{"tag":"402011","level":1,"create_t":1359708467},"z_510b8136edf85":{"tag":"402041","level":1,"create_t":1359708470},"z_510b80596d95f":{"tag":"402021","level":1,"create_t":1359708249},"z_510b8144472a6":{"tag":"402051","level":1,"create_t":1359708484},"z_510d4bad67c72":{"tag":"402051","level":1,"create_t":1359825837},"z_510d4ba8c77f5":{"tag":"401051","level":1,"create_t":1359825832},"z_510d4bbcce949":{"tag":"403091","level":1,"create_t":1359825852},"z_510d4bc7eb0d2":{"tag":"401011","level":1,"create_t":1359825863},"z_510d4bf5e0ffe":{"tag":"402071","level":1,"create_t":1359825909},"z_510d4b6c0908c":{"tag":"401021","level":1,"create_t":1359825772},"z_510d4b9d4f96f":{"tag":"402021","level":1,"create_t":1359825821},"z_510d4c1b4b2f0":{"tag":"401021","level":1,"create_t":1359825947},"z_510d4c1fa5179":{"tag":"403071","level":2,"create_t":1359825951,"exp":510},"z_510d4c4f284b0":{"tag":"402071","level":1,"create_t":1359825999},"z_510d4c7ac11f6":{"tag":"401021","level":1,"create_t":1359826042},"z_510d4c7f0904c":{"tag":"402071","level":1,"create_t":1359826046},"z_510d4c9e40f9f":{"tag":"402071","level":1,"create_t":1359826078},"z_510d4c15e0bd3":{"tag":"401041","level":1,"create_t":1359825941},"z_510d4c44d38ee":{"tag":"401011","level":1,"create_t":1359825988},"z_510d4c59b2ac2":{"tag":"401021","level":1,"create_t":1359826009},"z_510d4c427c9b7":{"tag":"401041","level":1,"create_t":1359825986},"z_510d4c786a322":{"tag":"402011","level":1,"create_t":1359826040},"z_510d4c89989d4":{"tag":"401041","level":1,"create_t":1359826057},"z_510d4e55d0471":{"tag":"402071","level":1,"create_t":1359826517},"z_510d4e425a6ce":{"tag":"402041","level":1,"create_t":1359826498},"z_510d4e383534b":{"tag":"402041","level":1,"create_t":1359826488},"z_510d513f937b9":{"tag":"401051","level":1,"create_t":1359827263},"z_510d516bf03fd":{"tag":"401041","level":1,"create_t":1359827307},"z_510d51376d643":{"tag":"401051","level":1,"create_t":1359827255},"z_510d51511d400":{"tag":"402041","level":1,"create_t":1359827281},"z_5110c0cdde8e9":{"tag":"402051","level":1,"create_t":1360052429},"z_5110c0c23dbf8":{"tag":"401011","level":1,"create_t":1360052418},"z_5110c0c558c0d":{"tag":"401011","level":1,"create_t":1360052421},"z_5110c0d191af4":{"tag":"401011","level":1,"create_t":1360052433},"z_5110c05d6345a":{"tag":"401021","level":1,"create_t":1360052317},"z_5110c10c4637e":{"tag":"401041","level":1,"create_t":1360052492},"z_5110c18e073e0":{"tag":"401051","level":1,"create_t":1360052621},"z_5110c19d42119":{"tag":"401011","level":1,"create_t":1360052637},"z_5110c063ee2a8":{"tag":"401021","level":1,"create_t":1360052323},"z_5110c181e1d05":{"tag":"402061","level":1,"create_t":1360052609},"z_5110c192a0a21":{"tag":"401041","level":1,"create_t":1360052626},"z_5110c1169ce94":{"tag":"402021","level":1,"create_t":1360052502},"z_5110c05594f4e":{"tag":"402061","level":1,"create_t":1360052309}},"exp":145,"freshp":{"rt_cd3":1360038099,"rt_cd2":1360038106,"rt_cd1":1360050230,"rt_":1359033545},"gem":86,"init_time":1354506399,"jianghu":["5001","5002","5003","5004","5005","5006","5007","5008","5009","5010","5011","5012","5013"],"jifen":145793,"jifen_b":105101,"last_dianbo_over":1359864515,"level":25,"login_t":1360086491,"lunjianRewards":{"timeout":1359453600},"lunjian_max_rank":"534","lunjian_zhangmentie_receive":1356453422,"mac_address":"7073CB1B4575","mijiqiyu_point":5065,"money":6704258,"name":"\u7834\u519b\u85cf\u5200","newbie":{"newsystemopen":["newopen_lunjian","newopen_zhaomu","newopen_canzhang","newopen_peiyang","newopen_tupo","newopen_chuangong","newopen_zhangmenjue","newopen_worldboss","newopen_canwu","newopen_peiyang10"]},"noticeWhenBeAttacked":0,"noticeWhenEnergyFull":0,"noticeWhenStaminaFull":0,"peiyang_type":4,"peoples":{"101003":{"attack_offset":12,"change":0,"create_t":1356018430,"defense_offset":-15,"equip":{"p1":"e_50f78022e5552","p2":"e_50cb5077b0d0a","p3":"e_50d2b8eca468c","p5":"s_50def182a6b34","p6":"s_50def179eb48b"},"exp":4206,"health_offset":14,"level":63,"magic_offset":11,"potential":908,"siguoya":{"level":1,"receive_time":1358497665},"skill":{"level":2,"tag":"301013","create_t":1359097287,"exp":2},"tag":"101003","zhenqi":{"z1":"z_510a88c4bf966"}},"101004":{"attack_offset":21,"change":0,"create_t":1355933268,"defense_offset":17,"equip":{"p1":"e_5100be1602ae6","p2":"e_50d9d849223e0","p3":"e_50f77ff2d2c3e","p5":"s_50def182a7301","p6":"s_50def6ac1474b"},"exp":2000,"health_offset":11,"level":62,"magic_offset":14,"potential":852,"siguoya":{"level":1,"receive_time":1358588183},"skill":{"level":2,"tag":"301007","create_t":1359096440,"exp":2},"tag":"101004","zhenqi":{"z1":"z_510b817abb576"}},"101006":{"create_t":1356887014,"equip":{"p1":"e_50d1f4c50033b","p2":"e_50d9c4ffae6aa","p3":"e_50cb2ee73d2b7","p5":"e_5100b7d496622","p6":"e_51039d41169cf"},"exp":8480,"level":57,"potential":840,"skill":{"level":2,"tag":"302007","create_t":1359097189,"exp":4},"tag":"101006","zhenqi":{"z1":"z_510b8136edf85"}},"101008":{"attack_offset":-3,"change":0,"create_t":1355803692,"defense_offset":10,"equip":{"p1":"e_50dfbf2c3bb2d","p2":"e_50f77ffa043ec","p3":"e_510a84aac1f4d","p5":"s_50de8e6071ca2","p6":"s_50def182a6efa"},"exp":7017,"health_offset":18,"level":63,"magic_offset":11,"potential":894,"skill":{"level":4,"tag":"302006","create_t":1359096850,"exp":15},"tag":"101008","zhenqi":{"z1":"z_510a7154bea77"}},"101010":{"attack_offset":-2,"change":{"minus_tag":"magic","minus_num":1,"add_tag":"attack","add_num":1,"pa_change_num":0},"create_t":1356878479,"defense_offset":-2,"equip":{"p1":"e_50f77ff6cee8d","p2":"e_5101337e25acb","p3":"e_50fae0e2c7c57","p5":"s_50d1f4f3ad46a","p6":"e_5100bdcbc7f11"},"exp":8156,"health_offset":1,"level":63,"magic_offset":3,"potential":930,"skill":{"level":2,"tag":"302009","create_t":1359097223,"exp":4},"tag":"101010","zhenqi":{"z1":"z_510a70e317d30"}},"101015":{"tag":"101015","level":1,"create_t":1358582515},"101016":{"tag":"101016","level":1},"101017":{"create_t":1356581629,"equip":{"p1":"e_50f78029de7b3","p2":"e_50f77ff2d2848","p3":"e_50d98f01e29fb","p5":"e_50e13fdac5726","p6":"s_50d1f4dac7727"},"exp":1575,"level":62,"potential":915,"skill":{"level":3,"tag":"302012","create_t":1359096965,"exp":6},"tag":"101017","zhenqi":{"z1":"z_510a71678d7a2"}},"101020":{"tag":"101020","level":1,"create_t":1356879041},"101021":{"tag":"101021","level":1,"create_t":1356018419},"101023":{"tag":"101023","level":1,"create_t":1358396005},"101024":{"attack_offset":460,"change":0,"defense_offset":-25,"equip":{"p1":"e_50f7802c45703","p2":"e_50d9cc6f6acc2","p3":"e_50d1f483679bf","p5":"s_50fa5dea1641a","p6":"s_50dbc192dd2bd"},"exp":492,"health_offset":235,"level":62,"magic_offset":50,"potential":195,"siguoya":{"level":1,"receive_time":1358823050},"skill":{"level":2,"tag":"302002","create_t":1356879982,"exp":4},"tag":"101024","zhenqi":{"z1":"z_510a88b662ddd"}},"102002":{"tag":"102002","level":1,"create_t":1358857595},"102005":{"tag":"102005","level":1,"create_t":1355936796,"tupolevel":1,"potential":60},"102006":{"tag":"102006","level":1,"create_t":1356879169},"102008":{"tag":"102008","level":1,"create_t":1359033534},"102009":{"tag":"102009","level":1,"create_t":1355936393,"tupolevel":1,"potential":60},"102010":{"tag":"102010","level":1,"tupolevel":1,"potential":60},"102013":{"tag":"102013","level":1,"create_t":1355301439,"tupolevel":1,"potential":60},"102014":{"tag":"102014","level":1,"create_t":1358395925},"102015":{"tag":"102015","level":1,"create_t":1356453729},"102016":{"create_t":1355408763,"level":1,"tag":"102016","exp":23,"tupolevel":1,"potential":60},"102017":{"tag":"102017","level":1,"create_t":1360038099},"102019":{"tag":"102019","level":1},"102021":{"create_t":1355803706,"level":1,"tag":"102021"},"102026":{"tag":"102026","level":1,"create_t":1358319006},"102027":{"tag":"102027","level":1,"create_t":1356879135},"102028":{"tag":"102028","level":1},"102029":{"tag":"102029","level":1,"tupolevel":1,"potential":60},"102030":{"tag":"102030","level":1,"create_t":1356874184},"102032":{"tag":"102032","level":1,"create_t":1359127459},"102033":{"tag":"102033","level":1,"create_t":1356787912},"102036":{"tag":"102036","level":1,"create_t":1358396033},"102037":{"tag":"102037","level":1,"create_t":1356022847},"102038":{"tag":"102038","level":1},"102039":{"tag":"102039","level":1,"create_t":1356879195},"102041":{"tag":"102041","level":1,"create_t":1355936815},"102043":{"tag":"102043","level":1,"create_t":1359033524},"103001":{"tag":"103001","level":1,"create_t":1358396012},"103005":{"tag":"103005","level":1,"create_t":1359128100},"103009":{"tag":"103009","level":1,"create_t":1359089397},"103011":{"tag":"103011","level":1,"create_t":1359733211},"103013":{"tag":"103013","level":1,"create_t":1358395956},"103014":{"tag":"103014","level":1,"create_t":1356879068},"103021":{"tag":"103021","level":1,"create_t":1359354933},"103026":{"tag":"103026","level":1,"create_t":1359127456},"103027":{"tag":"103027","level":1,"create_t":1359033545},"103029":{"tag":"103029","level":1,"create_t":1359033543},"103031":{"tag":"103031","level":1,"create_t":1359827349},"103032":{"tag":"103032","level":1,"create_t":1359788368},"103036":{"tag":"103036","level":1,"create_t":1359357995},"103043":{"tag":"103043","level":1,"create_t":1359032053},"104002":{"tag":"104002","level":1,"create_t":1359354937},"104004":{"tag":"104004","level":1,"create_t":1359824991},"104006":{"tag":"104006","level":1,"create_t":1359710838},"104013":{"tag":"104013","level":1,"create_t":1360038114},"104014":{"tag":"104014","level":1,"create_t":1360044532},"104015":{"tag":"104015","level":1},"104017":{"tag":"104017","level":1,"create_t":1359731206},"104019":{"tag":"104019","level":1,"create_t":1359367773},"104022":{"tag":"104022","level":1,"create_t":1359131603},"104031":{"tag":"104031","level":1,"create_t":1359735298},"104034":{"tag":"104034","level":1,"create_t":1360050230}},"pexp":12005,"pmoney":-18577938,"qiyu":{"activity_caiyuangungun":{"create_t":1355933180,"cnt":2},"activity_huangrongjiaohuaji":{"alive1last_t":1360038059,"alive2last_t":1360061995},"activity_langhuanfudi":{"start_t":1359000000,"end_t":1359259200,"jifen":[[62455,11024,32402,0,76062,0,0,0],[69228,15654,89198,0,25469,0,0,0],[36002,9616,46797,0,7996,0,0,0]],"refresh_time":1359216000,"count":[5,2,0],"jiazhuang":{"1":1}},"activity_shengji":{"3":{"accepted":1},"_finished":1,"5":{"accepted":1},"10":{"accepted":1},"15":{"accepted":1}},"activity_shenxianjiejie":{"visit_c":35,"last_t":1360038086,"first_awarded":1,"finish_awarded":1},"activity_wishingtree":{"wishing_target_points_2":66400,"wishing_target_points_10_1":61320,"wishing_target_points_1":283000,"wishing_target_points_10_2":49328,"wishing_target_points_10_3":18666,"wishing_target_points_3":57000},"dianbo_5110be03096d3":{"tag":"dianbo_2","create_t":1360051715,"userlevel":25,"_k":"5110be03096d3"},"xiaobao":{"gambleList":[{"cost":{"gem":48},"gain":{"303005":1},"type":1},{"cost":{"213004":1},"gain":{"money":59200},"type":1},{"cost":{"224005":1},"gain":{"money":8800},"type":1},{"cost":{"223005":1},"gain":{"money":37600},"type":1}],"gambleResult":[[2],[1],[2],[1]],"nextGambleTime":1360073651,"nextRescueTime":1360512000,"resultConfigHash":{"stopUserContinueSkillType":{"a":25,"b":16,"c":1,"d":1},"giveMoneyType":{"a":25,"b":20,"c":10,"d":10,"e":1,"f":1}}},"zhidian":[],"30100800":{"create_t":1355494774,"num":2,"tag":"30100800"},"30101000":{"tag":"30101000","num":1,"create_t":1355493893},"30200300":{"tag":"30200300","num":1,"create_t":1355502934},"30200500":{"tag":"30200500","num":5,"create_t":1356198137},"30200600":{"tag":"30200600","num":5,"create_t":1355495419},"30200700":{"tag":"30200700","num":1,"create_t":1359128740},"30201000":{"tag":"30201000","num":5,"create_t":1356198147},"30201700":{"tag":"30201700","num":2,"create_t":1356708302},"30300300":{"tag":"30300300","num":11,"create_t":1355754463},"30300400":{"tag":"30300400","num":4,"create_t":1356700825},"30300500":{"num":4,"tag":"30300500"},"30300700":{"tag":"30300700","num":3,"create_t":1355502995},"30300800":{"create_t":1355302524,"num":15,"tag":"30300800"},"30300900":{"tag":"30300900","num":9,"create_t":1355579332},"30301000":{"tag":"30301000","num":11,"create_t":1356255024},"30301100":{"tag":"30301100","num":1,"create_t":1355283528},"30301200":{"tag":"30301200","num":10,"create_t":1355503140}},"recev_siguoya_juanzhou_t":1358257286,"reslimit":{"act_dizirecruit_cnt_pay2_1227":18,"act_dizirecruit_cnt_pay2_130117":6,"act_dizirecruit_cnt_pay3_1227":28,"act_dizirecruit_cnt_pay3_130117":23,"act_dizirecruit_free2_1128":500000,"act_dizirecruit_free2_1213":0,"act_dizirecruit_free2_1227":200000,"act_dizirecruit_free2_130117":300000,"act_dizirecruit_free2_130131":400000,"act_dizirecruit_free3_1213":800000,"act_dizirecruit_free3_1227":400000,"act_dizirecruit_free3_130117":800000,"act_dizirecruit_free3_130131":500000,"act_dizirecruit_pay2_1227":86000,"act_dizirecruit_pay2_130117":262000,"act_dizirecruit_pay3_1227":30000,"act_dizirecruit_pay3_130117":575000,"allow_dizi_pool_1":100000,"allow_dizi_pool_2":14,"allow_dizi_pool_3":5,"allow_dizi_pool_4":0,"allow_tupo_pool_1":100000,"allow_tupo_pool_2":26,"allow_tupo_pool_3":8,"allow_tupo_pool_4":4,"count_dizi_1":12,"count_dizi_2":52,"count_dizi_3":40,"count_dizi_4":8,"count_free1":134,"count_free2":33,"count_free3":16,"count_pay1":14,"count_pay2":32,"count_pay3":70,"count_tupo_1":13,"count_tupo_2":6,"count_tupo_3":10,"danhuangyuebingPool":11,"dianbo_1_cnt":7,"dianbo_2_cnt":9,"dianbo_3_cnt":1,"doushayuebingPool":10,"extraGainSoulPool":69200,"points_dizi_1":-1200,"points_dizi_2":96,"points_dizi_3":25,"points_dizi_4":64,"points_tupo_1":-6800,"points_tupo_2":-1402,"points_tupo_3":-1041,"points_tupo_4":1974,"refine_material_point":2048000,"soul_pool_1":9999730,"soul_pool_2":-8,"soul_pool_3":-457,"soul_pool_4":-118},"siguoya":[],"soul":{"111002":6,"111003":39,"111004":34,"111005":6,"111008":38,"111009":10,"111010":4,"111011":2,"111015":18,"111016":23,"111017":36,"111022":3,"111023":20,"111024":37,"111026":16,"111037":5,"112002":1,"112005":0,"112007":0,"112008":0,"112009":0,"112010":0,"112011":1,"112012":11,"112013":18,"112014":0,"112015":0,"112016":2,"112017":0,"112018":0,"112019":29,"112020":1,"112021":19,"112022":0,"112023":0,"112024":6,"112025":7,"112027":9,"112028":0,"112029":20,"112030":0,"112031":0,"112038":0,"112039":0,"113002":0,"113004":0,"113006":0,"113009":0,"113011":0,"113012":0,"113017":0,"113018":0,"113019":1,"113020":0,"113021":0,"113024":0,"113032":0,"113033":0,"113034":0,"113037":0,"113040":0,"113043":3,"114001":5,"114002":0,"114003":0,"114013":2,"114014":3,"114015":3,"114017":6,"114018":2,"114019":7,"114021":1,"114022":9,"114023":1,"114024":4,"114028":1,"114032":1,"114036":0},"source":"3","stamina":{"eadd":8,"rt":1360080000,"t":1360061989,"used":1115,"v":31,"vmax":0,"wt":0},"statistics":{"days_money_add":[19532,581506,62691,25161,389271,1076178,8008072,928596,555863,694191,1012405,112794,20482,1067124,434282,149153,792743,57713,350485],"days_money_idx":19,"history_daily_money_add":8008072,"history_daily_money_minus":2902000,"history_lunjian_rank":"534","total_hecheng_miji_cnt":6,"total_xuezhan_battle_cnt":53,"1001_total_boss_battle_cnt":4},"team":["101024","101004","101008","101017","101003","101010","101006"],"total_gem_added":60,"total_gem_rewarded":61458,"total_gem_rewarded2":19940,"total_gem_used":61402,"vip":{"lvl":8},"worldboss":{"1001":{"attack_count":5,"damage_total":86557,"end_time":"1360123200","fuhuo_attack_count":4,"last_gem_attack_time":1360038817,"money_gain_total":43277,"msg_offset":70,"peiyangdan_gain_total":15,"putong_attack_count":1,"reborn_count":4,"reborn_time":1360038877,"start_time":"1360038600"}},"wulinpu":{"have":{"people":["102024","102010","103019","103026","103002","102030","102033","102018","103034","104002","104003","104022","102013","103036","103008","103011","103010","102016","103012","104014","103017","104001","104021","102020","103016","104015","104019","103007","103045","103043","101008","102021","103025","103046","101004","103037","102009","102005","102041","103031","103005","101021","101003","102037","102007","103022","103032","103009","102043","103020","103047","102029","103006","102028","103003","102015","102019","103044","103021","101017","102040","103039","103028","103033","102032","104036","103004","103041","101010","101020","103014","102027","102006","102039","101024","103018","103024","103038","103023","101006","102038","102008","103042","102004","103027","103029","102026","102035","103035","102014","103040","103013","101023","103001","102036","101016","103030","102017","101015","102002","104006","104017","104031","104004","104013","104034"],"skill":["302010","302017","303013","304003","303007","303009","302016","303011","303005","304001","302014","303008","302012","302006","303012","302005","304005","303006","303003","304002","302013","301011","301007","304006","303001","301009","301013","303004","302007","303010","304004","303002","302001","301010","302008","302009","302002","302011","302004","301008"],"equipment":["224001","213004","214005","213002","234009","224009","224008","233004","214008","214010","224007","224006","223001","214009","214007","214006","223007","224005","224004","213008","232003","213007","223004","233007","214003","223008","213001","213003","213005","223003","224002","214004","233003","214002","222004","222005","224003","212002","224010","221003","232004","212001","222001","213006","212005","211005","211004","214001","223006","223005","222002","401011","402061","401021","401051","401041","402021","402011","402041","403041","402071","403011","402051","403091","403071"]},"meet":{"people":["102003","102022","102012","104010","102031","102011","102023","101019","101028","104008","104016","104018","104009","101026","102034","104042","104033","104039","101009","101007","101002","101011","104041","101013","102024","101001","104005","101018","101014","102040","102007","103019","103004","103028","103047","104036","102020","104007","104003","103035","103039","103030","103024","103042","104026","104028","103023","103040","104027","103022","103025","104012","101005","103037","104021","103045","103015","102025","104035","103006","103008","102004","102035","102018","103033","103020","101012","104020","103017","104025","104001","103041","104024","104037","103002"],"skill":["302003","301001","301012","301006","301005","301004","304004"],"equipment":["233001","233002","233005","212004","223002","222003","212003","232005","213006","213005","231005","221004"]}},"yaoyiyao":{"energy":2,"time":1360086510},"zhangmenji":{"zhangmenji_attack":{"exp":0,"level":23},"zhangmenji_defense":{"exp":0,"level":5},"zhangmenji_health":{"exp":1,"level":12}},"zhenqiinfo":{"free_expire_t":1360139042,"mood":1},"zhenqilimit":{"zhenqi_exp_point":5000,"zhenqi_lvlup_exp_pool":4460,"zhenqi_point_pool_3":9790.9057061459,"zhenqi_point_pool_4":86480.761766798,"zhenqi_point_3":51377.997010143,"zhenqi_point_4":3617.5772210022},"gonggao":[{"title":"\u3010\u8fce\u8d22\u795e\u8fd4\u5143\u5b9d\u3011","activity_tag":"","type":"btn","go":"Qiyu","start_t":1356994800,"finish_t":1388530800,"sort":"5","content":"\u3010\u6d3b\u52a8\u65f6\u95f4\u3011\uff1a\u6240\u6709\u65b0\u638c\u95e8\u8fdb\u5165\u6e38\u620f\u540e\u5c31\u53ef\u53c2\u4e0e\u6d3b\u52a8\uff0c\u6d3b\u52a8\u6301\u7eed\u4e24\u5929\r\n\u3010\u6d3b\u52a8\u5185\u5bb9\u3011\uff1a\u5404\u4f4d\u638c\u95e8\u53ea\u9700\u8981\u5728\u6d3b\u52a8\u671f\u95f4\u5185\uff0c\u5230\u5947\u9047\u754c\u9762\u7ed9\u8d22\u795e\u732e\u4e0a\u4e00\u5b9a\u989d\u5ea6\u5143\u5b9d\uff0c\u8d22\u795e\u5c31\u4f1a\u7ed9\u5404\u4f4d\u638c\u95e8\u8fd4\u56de\u66f4\u591a\u5143\u5b9d\uff0c\u6d3b\u52a8\u671f\u95f4\u5185\u53ea\u80fd\u8fde\u7eed\u732e\u4e0a\u4e09\u6b21\u54e6\uff01"},{"title":"\u3010\u5145\u503c\u8fd4\u5229\u6d3b\u52a8\u3011","activity_tag":"","type":"btn","go":"chongzhi","start_t":1356994800,"finish_t":1388530800,"sort":"6","content":"\u3010\u6d3b\u52a8\u65f6\u95f4\u3011\uff1a\u5728\u65b0\u638c\u95e8\u8fdb\u5165\u6e38\u620f\u540e\u7684\u7b2c4\u5929\u51cc\u6668\u5f00\u542f\uff0c\u6bcf\u4f4d\u638c\u95e8\u6709\u4e24\u5929\u7684\u5145\u503c\u8fd4\u5229\u65f6\u95f4\r\n\u3010\u6d3b\u52a8\u5185\u5bb9\u3011\uff1a\u638c\u95e8\u5728\u4e24\u5929\u8fd4\u5229\u65f6\u95f4\u5185\u5145\u503c\u5927\u4e8e\u7b49\u4e8e100RMB\u5373\u53ef\u83b7\u5f97\u8fd4\u5229\uff0c\u5728\u4e24\u5929\u65f6\u95f4\u8fc7\u540e\u7684\u8fde\u7eed\u5341\u5929\u5185\uff0c\u6bcf\u5929\u90fd\u53ef\u4ee5\u9886\u53d6\u4e00\u5b9a\u989d\u5ea6\u7684\u5143\u5b9d\uff0c\u6ca1\u6709\u53ca\u65f6\u9886\u53d6\u7684\u7d2f\u79ef\u5230\u7b2c\u4e8c\u5929\uff0c\u603b\u8ba1\u6700\u9ad8\u8fd4\u5229\u53ef\u9ad8\u8fbe10000\u5143\u5b9d\u54e6\uff01\uff08\u7d2f\u79ef\u5145\u503c\u8d8a\u591a\uff0c\u8fd4\u5229\u8d8a\u591a\uff09\u6ce8\u610f\u53ea\u9650\u4e24\u5929\uff0c\u5404\u4f4d\u638c\u95e8\u901f\u901f\u884c\u52a8\uff01 \r\n\u3010\u6d3b\u52a8\u5956\u52b1\u3011\uff1a\u5143\u5b9d\u8fd4\u5229\uff0c\u6700\u9ad8\u53ef\u7d2f\u8ba1\u8fd4\u8fd810000\u5143\u5b9d\u3002"},{"title":"\u6e29\u99a8\u63d0\u793a","activity_tag":"","type":"text","go":"","start_t":1355241600,"finish_t":1386777600,"sort":"17","content":"1\u3001\u9996\u51b2\u7ffb\u500d\uff1a\u6307\u60a8\u5728\u6e38\u620f\u5185\u7b2c\u4e00\u6b21\u5151\u6362\u5143\u5b9d\uff0c\u5151\u6362\u5143\u5b9d\u7684\u6570\u91cf\u7ffb\u500d\uff0c\u4e14\u4e0d\u540c\u7684\u5206\u533a\u7b2c\u4e00\u6b21\u5151\u6362\u5143\u5b9d\u90fd\u4eab\u53d7\u9996\u51b2\u7ffb\u500d\u7684\u6743\u5229\u3002\r\n2\u3001\u672c\u6e38\u620f\u4e0d\u652f\u6301\u73a9\u5bb6\u95f4\u7684\u7ebf\u4e0b\u4ea4\u6613\u884c\u4e3a\uff0c\u907f\u514d\u9020\u6210\u4e0d\u5fc5\u8981\u7684\u635f\u5931\u3002\u8bf7\u5404\u4f4d\u73a9\u5bb6\u614e\u91cd\u5bf9\u5f85\uff01\r\n3\u3001\u4e3a\u4fdd\u8bc1\u5404\u4f4d\u73a9\u5bb6\u7684\u5229\u76ca\uff0c\u8bf7\u52ff\u5c06\u5bc6\u7801\u544a\u77e5\u4ed6\u4eba\uff0c\u4ee5\u514d\u9020\u6210\u4e2a\u4eba\u635f\u5931\u3002"},{"title":"\u3010\u6ce2\u65af\u5723\u5973\u91cd\u73b0\u4e2d\u539f  \u96c6\u5e02\u6536\u5f92\u83b7\u9b42\u9b44\u3011","activity_tag":"","type":"btn","go":"Jishi","start_t":1359604800,"finish_t":1360209600,"sort":"1","content":"\u3010\u6d3b\u52a8\u65f6\u95f4\u3011\uff1a1\u670831\u65e512\u70b9~2\u67087\u65e512\u70b9 \r\n\u3010\u6d3b\u52a8\u5185\u5bb9\u3011\uff1a\u5404\u4f4d\u638c\u95e8\u8fd8\u8bb0\u5f97\u6e29\u67d4\u5a49\u7ea6\u7684\u5c0f\u662d\u5417\uff1f\u8fd9\u4f4d\u6ce2\u65af\u5723\u5973\u53c8\u56de\u5230\u4e2d\u539f\u6b66\u6797\u5566\uff01\u73b0\u5728\u5728\u96c6\u5e02\u8fdb\u884c\u6536\u5f92\u5c31\u6709\u53ef\u80fd\u83b7\u5f97\u5c0f\u662d\u9b42\u9b44\uff01\u4e0e\u6b64\u540c\u65f6\uff0c\u73a9\u5bb6\u4eec\u8fd8\u6709\u673a\u4f1a\u83b7\u5f97\u9080\u6708\u3001\u963f\u7d2b\u7b49\u4eba\u7684\u9b42\u9b44\u54e6\uff01\r\n\t\u96c6\u9f50\u76f8\u5e94\u6570\u91cf\u7684\u9b42\u9b44\uff0c\u5c31\u53ef\u4ee5\u62db\u52df\u5230\u5bf9\u5e94\u7684\u9ad8\u624b\u5566 \uff0c\u5404\u4f4d\u638c\u95e8\u5feb\u53bb\u5c06\u5c0f\u662d\u62db\u81f3\u9ebe\u4e0b\u5427\uff01\u673a\u4e0d\u53ef\u5931\u5931\u4e0d\u518d\u6765\uff01"},{"title":"\u3010\u6c5f\u6e56\u6389\u6b8b\u7ae0 \u7edd\u4e16\u6b66\u529f\u5165\u624b\u6765\u3011","activity_tag":"","type":"btn","go":"Jianghu","start_t":1359604800,"finish_t":1360209600,"sort":"2","content":"\u3010\u6d3b\u52a8\u65f6\u95f4\u3011\uff1a1\u670831\u65e512\u70b9~2\u67087\u65e512\u70b9 \r\n\u3010\u6d3b\u52a8\u5185\u5bb9\u3011\uff1a\u6c5f\u6e56\u91cc\u518d\u6b21\u51fa\u73b0\u7edd\u4e16\u6b66\u529f\u6b8b\u7ae0\uff0c\u8fd9\u6b21\u6b8b\u7ae0\u5305\u62ec\u4e5d\u9633\u795e\u529f\u3001\u5929\u5c71\u516d\u9633\u638c\u3001\u5316\u529f\u5927\u6cd5\u7b49\u795e\u529f\uff01\u6c5f\u6e56\u53c8\u5c06\u662f\u4e00\u7247\u8840\u96e8\u8165\u98ce\u3002"}]},"s":"OK","first_monday":7,"_t":1360086651}
+[2013-02-06 01:50:54][DEBUG]requestbegin,{"m":"WorldBoss.getWorldBossTags","p":{"u":50217,"timestamp":1360086652,"signature":"25429acd1bbae85803018f139ed8bfc3","sec":"s95"}}
+[2013-02-06 01:50:57][DEBUG]WaitingLayerHandler:removeWaitingIcon fromAresGameContext:finalInitFunc
+[2013-02-06 01:50:57][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:50:57][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:50:57][DEBUG]request,{"m":"WorldBoss.getWorldBossTags","p":{"u":50217,"timestamp":1360086652,"signature":"25429acd1bbae85803018f139ed8bfc3","sec":"s95"}}
+[2013-02-06 01:50:57][DEBUG]response,{"tags":["1001"],"s":"OK","_t":1360086652}
+[2013-02-06 01:50:57][DEBUG]requestbegin,{"m":"ChuanshuMsg.getChuanshuMsgs","p":{"u":50217,"timestamp":1360086652,"signature":"1d799b9f18aa4ae23e445a591109a36d","sec":"s95"}}
+[2013-02-06 01:50:57][DEBUG]request,{"m":"ChuanshuMsg.getChuanshuMsgs","p":{"u":50217,"timestamp":1360086652,"signature":"1d799b9f18aa4ae23e445a591109a36d","sec":"s95"}}
+[2013-02-06 01:50:57][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:01][DEBUG]requestbegin,{"m":"Wulinpu.multiAdd","p":{"have":{"people":["101010","101008","101003","101004","101017","101024","101006","101023","101016","101015","102032","102015","102026","103013","102036","102028","102037","102039","102021","102019","101020","103014","102016","102030","102005","103001","102009","102029","102002","102014","102038","102041","102027","102043","102017","102010","102008","102033","101021","102013","102006","103005","103031","103026","103036","103009","103032","103027","103021","103029","103043","103011","104013","104017","104015","104006","104022","104002","104004","104031","104034","104014","104019"],"skill":["302010","303010","304002","303004","304006","303009","302005","303004","303011","304001","303006","303009","302014","302012","302005","303002","302007","301009","304002","301008","304005","302016","302014","301011","302005","304001","304001","303004","302007","303001","303005","302012","302011","302009","302005","303010","303002","303003","301010","303008","302007","302010","302008","302013","304005","303009","302001","302001","303010","303007","302007","301010","303004","303006","304003","301013","302005","302005","302006","302007","302005","304006","304001","304003","304001","303013","302005","302016","301013","304003","302010","303006","303004","303008","303005","304002","303005","302017","303011","303009","303007","304006","302013","304001","302013","302017","302009","303006","302011","302004","303012","302006","303007","301010","302012","301009","303010","302009","303013","301013","302017","304002","302017","303010","303003","302016","302002","302012","301007","303007","302009","302006","302001","301010","303007","302010","301007","303002","303004","303001","303004","302007","302013","301011","303008","303010","303003","301010","303010","301011","303005","303007","302005","303001","303008","303003","303010","303002","302013","303008","303003","302017","302008","301008","301010","301013","303002","303009","302009"],"equipment":["402071","402071","224001","221003","402011","222001","224001","222002","402041","224003","214003","214005","214004","213004","223007","214005","233003","214007","214001","223001","402071","233003","224006","234009","212005","224006","213004","214010","223007","224004","214005","212002","402071","213003","401021","223005","401011","232004","402041","223004","224003","224004","213002","402021","214008","402061","223001","401011","401021","223007","402051","214006","214002","401041","213003","402021","223008","233007","224008","224002","211005","224009","401051","213002","211004","224005","224006","222005","213007","214002","214002","403041","214006","213007","224001","223001","402041","401011","224004","213001","214005","212002","402051","401011","224005","222004","401041","214006","402071","223005","401041","224009","214005","214004","402051","224005","224002","214003","224002","403011","214003","401051","224005","232003","401011","402061","402011","402071","403011","223004","402011","223001","401041","214008","401041","214001","224008","212001","401021","224004","224009","224002","223003","401051","214002","401021","214003","214007","401021","223003","402021","224006","403091","214001","402051","214009","402021","213004","223006","402041","402041","224004","213003","403071","401021","214004","233004","214004","224003","224006","213007","213001","222004","224001","224007","401041","223007","213008","402021","402061","224004","401051","402041","224004","214007","214004","214006","214001","402041","224004","213001","402041","214004","224004","213002","402041","402041","402061","402011","224007","214006","401011","214004","223005","233004","224002","223003","224002","402041","224007","402021"]},"signature":"57d22fe85e8101d524163114f029f3c4","u":50217,"sec":"s95","timestamp":1360086656,"all":1}}
+[2013-02-06 01:51:01][DEBUG]request,{"m":"Wulinpu.multiAdd","p":{"have":{"people":["101010","101008","101003","101004","101017","101024","101006","101023","101016","101015","102032","102015","102026","103013","102036","102028","102037","102039","102021","102019","101020","103014","102016","102030","102005","103001","102009","102029","102002","102014","102038","102041","102027","102043","102017","102010","102008","102033","101021","102013","102006","103005","103031","103026","103036","103009","103032","103027","103021","103029","103043","103011","104013","104017","104015","104006","104022","104002","104004","104031","104034","104014","104019"],"skill":["302010","303010","304002","303004","304006","303009","302005","303004","303011","304001","303006","303009","302014","302012","302005","303002","302007","301009","304002","301008","304005","302016","302014","301011","302005","304001","304001","303004","302007","303001","303005","302012","302011","302009","302005","303010","303002","303003","301010","303008","302007","302010","302008","302013","304005","303009","302001","302001","303010","303007","302007","301010","303004","303006","304003","301013","302005","302005","302006","302007","302005","304006","304001","304003","304001","303013","302005","302016","301013","304003","302010","303006","303004","303008","303005","304002","303005","302017","303011","303009","303007","304006","302013","304001","302013","302017","302009","303006","302011","302004","303012","302006","303007","301010","302012","301009","303010","302009","303013","301013","302017","304002","302017","303010","303003","302016","302002","302012","301007","303007","302009","302006","302001","301010","303007","302010","301007","303002","303004","303001","303004","302007","302013","301011","303008","303010","303003","301010","303010","301011","303005","303007","302005","303001","303008","303003","303010","303002","302013","303008","303003","302017","302008","301008","301010","301013","303002","303009","302009"],"equipment":["402071","402071","224001","221003","402011","222001","224001","222002","402041","224003","214003","214005","214004","213004","223007","214005","233003","214007","214001","223001","402071","233003","224006","234009","212005","224006","213004","214010","223007","224004","214005","212002","402071","213003","401021","223005","401011","232004","402041","223004","224003","224004","213002","402021","214008","402061","223001","401011","401021","223007","402051","214006","214002","401041","213003","402021","223008","233007","224008","224002","211005","224009","401051","213002","211004","224005","224006","222005","213007","214002","214002","403041","214006","213007","224001","223001","402041","401011","224004","213001","214005","212002","402051","401011","224005","222004","401041","214006","402071","223005","401041","224009","214005","214004","402051","224005","224002","214003","224002","403011","214003","401051","224005","232003","401011","402061","402011","402071","403011","223004","402011","223001","401041","214008","401041","214001","224008","212001","401021","224004","224009","224002","223003","401051","214002","401021","214003","214007","401021","223003","402021","224006","403091","214001","402051","214009","402021","213004","223006","402041","402041","224004","213003","403071","401021","214004","233004","214004","224003","224006","213007","213001","222004","224001","224007","401041","223007","213008","402021","402061","224004","401051","402041","224004","214007","214004","214006","214001","402041","224004","213001","402041","214004","224004","213002","402041","402041","402061","402011","224007","214006","401011","214004","223005","233004","224002","223003","224002","402041","224007","402021"]},"signature":"57d22fe85e8101d524163114f029f3c4","u":50217,"sec":"s95","timestamp":1360086656,"all":1}}
+[2013-02-06 01:51:01][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:02][DEBUG]WaitingLayerHandler:showWaitingIcon from Hero.diziRecruit
+[2013-02-06 01:51:02][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:02][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:02][DEBUG]requestbegin,{"m":"Hero.diziRecruit","p":{"sugg_arr":["104019","103032","102010","101010"],"signature":"6a0124cbf897fe02e49de57e0c0027ae","timestamp":1360086657,"u":50217,"sec":"s95","rtype":"free1"}}
+[2013-02-06 01:51:02][DEBUG]request,{"m":"Hero.diziRecruit","p":{"sugg_arr":["104019","103032","102010","101010"],"signature":"6a0124cbf897fe02e49de57e0c0027ae","timestamp":1360086657,"u":50217,"sec":"s95","rtype":"free1"}}
+[2013-02-06 01:51:02][DEBUG]response,{"s":"OK","d":{"peoples":{"103039":{"tag":"103039","level":1,"create_t":1360086660}},"reslimit":{"act_dizirecruit_cnt_pay2_1227":18,"act_dizirecruit_cnt_pay2_130117":6,"act_dizirecruit_cnt_pay3_1227":28,"act_dizirecruit_cnt_pay3_130117":23,"act_dizirecruit_free2_1128":500000,"act_dizirecruit_free2_1213":0,"act_dizirecruit_free2_1227":200000,"act_dizirecruit_free2_130117":300000,"act_dizirecruit_free2_130131":400000,"act_dizirecruit_free3_1213":800000,"act_dizirecruit_free3_1227":400000,"act_dizirecruit_free3_130117":800000,"act_dizirecruit_free3_130131":500000,"act_dizirecruit_pay2_1227":86000,"act_dizirecruit_pay2_130117":262000,"act_dizirecruit_pay3_1227":30000,"act_dizirecruit_pay3_130117":575000,"allow_dizi_pool_1":100000,"allow_dizi_pool_2":14,"allow_dizi_pool_3":5,"allow_dizi_pool_4":0,"allow_tupo_pool_1":100000,"allow_tupo_pool_2":26,"allow_tupo_pool_3":8,"allow_tupo_pool_4":4,"count_dizi_1":12,"count_dizi_2":53,"count_dizi_3":40,"count_dizi_4":8,"count_free1":135,"count_free2":33,"count_free3":16,"count_pay1":14,"count_pay2":32,"count_pay3":70,"count_tupo_1":13,"count_tupo_2":6,"count_tupo_3":10,"danhuangyuebingPool":11,"dianbo_1_cnt":7,"dianbo_2_cnt":9,"dianbo_3_cnt":1,"doushayuebingPool":10,"extraGainSoulPool":69200,"points_dizi_1":-1200,"points_dizi_2":16,"points_dizi_3":25,"points_dizi_4":64,"points_tupo_1":-6800,"points_tupo_2":-1392,"points_tupo_3":-1040,"points_tupo_4":1974,"refine_material_point":2048000,"soul_pool_1":9999730,"soul_pool_2":-8,"soul_pool_3":-457,"soul_pool_4":-118},"freshp":{"rt_cd3":1360038099,"rt_cd2":1360038106,"rt_cd1":1360086660,"rt_":1359033545},"daily":{"cd1num":1}},"recruit":{"people":{"103039":1}},"extra":{"soulArr":null},"_t":1360086660}
+[2013-02-06 01:51:03][DEBUG]WaitingLayerHandler:removeWaitingIcon fromHero.diziRecruit
+[2013-02-06 01:51:03][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:03][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:03][DEBUG]requestbegin,{"m":"Chat.getByChannel","p":{"lastkey":"511145fb9cf7d","type":2,"name":"tv","signature":"88c29f33e2f753753688e7f5870c10d4","u":50217,"sec":"s95","timestamp":1360086661}}
+[2013-02-06 01:51:03][DEBUG]request,{"m":"Chat.getByChannel","p":{"lastkey":"511145fb9cf7d","type":2,"name":"tv","signature":"88c29f33e2f753753688e7f5870c10d4","u":50217,"sec":"s95","timestamp":1360086661}}
+[2013-02-06 01:51:03][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:09][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:09][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:09][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:09][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086667,"signature":"c1a7dedf36eded92d48b6cabe875ac44","sec":"s95"}}
+[2013-02-06 01:51:09][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086667,"signature":"c1a7dedf36eded92d48b6cabe875ac44","sec":"s95"}}
+[2013-02-06 01:51:09][DEBUG]response,{"s":"OK","d":{"daily":{"daily_money_minus":8000,"daily_money_add":29401},"money":6700258,"pmoney":-18573938,"zhenqilimit":{"zhenqi_exp_point":5000,"zhenqi_lvlup_exp_pool":4460,"zhenqi_point_pool_3":9790.9057061459,"zhenqi_point_pool_4":86480.761766798,"zhenqi_point_3":51377.997010143,"zhenqi_point_4":3617.5772210022},"zhenqiinfo":{"free_expire_t":1360093867,"mood":1}},"extra":{"gain":{"400031":1},"isSaled":1,"isZhenyuan":null,"poolStatus":0,"saledMoney":4000,"free_3":0},"_t":1360086667}
+[2013-02-06 01:51:09][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:09][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:09][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:11][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:11][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:11][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:11][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086669,"signature":"8d9bb91b06d9d8608202bf34afe26867","sec":"s95"}}
+[2013-02-06 01:51:13][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086669,"signature":"8d9bb91b06d9d8608202bf34afe26867","sec":"s95"}}
+[2013-02-06 01:51:13][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:13][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:13][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:13][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:13][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086671,"signature":"0bd84834aba03e86ad3bee65eb2f3c63","sec":"s95"}}
+[2013-02-06 01:51:13][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:13][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:13][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:13][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086671,"signature":"0bd84834aba03e86ad3bee65eb2f3c63","sec":"s95"}}
+[2013-02-06 01:51:13][DEBUG]response,{"s":"OK","d":{"daily":{"daily_money_minus":16000,"daily_money_add":33401},"money":6696258,"pmoney":-18569938,"zhenqilimit":{"zhenqi_exp_point":5000,"zhenqi_lvlup_exp_pool":4460,"zhenqi_point_pool_3":9790.9057061459,"zhenqi_point_pool_4":86480.761766798,"zhenqi_point_3":51377.997010143,"zhenqi_point_4":3617.5772210022},"zhenqiinfo":{"free_expire_t":1360093871,"mood":2}},"extra":{"gain":{"400041":1},"isSaled":1,"isZhenyuan":null,"poolStatus":0,"saledMoney":4000,"free_3":0},"_t":1360086671}
+[2013-02-06 01:51:13][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:13][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:13][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:14][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:14][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:14][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:14][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086672,"signature":"32a4f0162e74cd3f39d94545b1dbbb34","sec":"s95"}}
+[2013-02-06 01:51:15][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086672,"signature":"32a4f0162e74cd3f39d94545b1dbbb34","sec":"s95"}}
+[2013-02-06 01:51:15][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:15][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:15][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:15][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:15][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086673,"signature":"07a22df8281a10319e6e20797351ddd1","sec":"s95"}}
+[2013-02-06 01:51:15][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:15][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:15][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:15][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086673,"signature":"07a22df8281a10319e6e20797351ddd1","sec":"s95"}}
+[2013-02-06 01:51:15][DEBUG]response,{"s":"OK","d":{"daily":{"daily_money_minus":36000,"daily_money_add":37401},"money":6680258,"pmoney":-18553938,"zhenqilimit":{"zhenqi_exp_point":5000,"zhenqi_lvlup_exp_pool":4460,"zhenqi_point_pool_3":9790.9057061459,"zhenqi_point_pool_4":86480.761766798,"zhenqi_point_3":51377.997010143,"zhenqi_point_4":3617.5772210022},"zhenqiinfo":{"free_expire_t":1360108273,"mood":3}},"extra":{"gain":{"400041":1},"isSaled":1,"isZhenyuan":null,"poolStatus":0,"saledMoney":4000,"free_3":0},"_t":1360086673}
+[2013-02-06 01:51:15][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:15][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:15][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:17][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086675,"signature":"5ac2a161e80a9c9a9c3f6e36e6135fbb","sec":"s95"}}
+[2013-02-06 01:51:17][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086675,"signature":"5ac2a161e80a9c9a9c3f6e36e6135fbb","sec":"s95"}}
+[2013-02-06 01:51:17][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:17][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086675,"signature":"5ac2a161e80a9c9a9c3f6e36e6135fbb","sec":"s95"}}
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:17][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086675,"signature":"5ac2a161e80a9c9a9c3f6e36e6135fbb","sec":"s95"}}
+[2013-02-06 01:51:17][DEBUG]response,{"s":"OK","d":{"daily":{"daily_money_minus":66000},"money":6650258,"pmoney":-18523938,"equipments":{"z_5111469361950":{"tag":"401011","level":1,"create_t":1360086675}},"zhenqilimit":{"zhenqi_exp_point":5000,"zhenqi_lvlup_exp_pool":4430,"zhenqi_point_pool_3":9790.9057061459,"zhenqi_point_pool_4":86480.761766798,"zhenqi_point_3":51377.997010143,"zhenqi_point_4":3617.5772210022},"zhenqiinfo":{"free_expire_t":1360151475,"mood":1}},"extra":{"gain":{"401011":1},"isSaled":null,"isZhenyuan":null,"poolStatus":0,"saledMoney":null,"free_3":0},"_t":1360086675}
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:17][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:19][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:19][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:19][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:19][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086677,"signature":"8dad5daf446a1d3c0b208054d3d25d4d","sec":"s95"}}
+[2013-02-06 01:51:19][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086677,"signature":"8dad5daf446a1d3c0b208054d3d25d4d","sec":"s95"}}
+[2013-02-06 01:51:19][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:19][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:19][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:19][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:19][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086677,"signature":"8dad5daf446a1d3c0b208054d3d25d4d","sec":"s95"}}
+[2013-02-06 01:51:19][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:19][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:19][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:20][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086677,"signature":"8dad5daf446a1d3c0b208054d3d25d4d","sec":"s95"}}
+[2013-02-06 01:51:20][DEBUG]response,{"s":"OK","d":{"daily":{"daily_money_minus":74000},"money":6642258,"pmoney":-18515938,"equipments":{"z_51114695c6f03":{"tag":"401021","level":1,"create_t":1360086677}},"zhenqilimit":{"zhenqi_exp_point":5000,"zhenqi_lvlup_exp_pool":4400,"zhenqi_point_pool_3":9790.9057061459,"zhenqi_point_pool_4":86480.761766798,"zhenqi_point_3":51377.997010143,"zhenqi_point_4":3617.5772210022},"zhenqiinfo":{"free_expire_t":1360093877,"mood":1}},"extra":{"gain":{"401021":1},"isSaled":null,"isZhenyuan":null,"poolStatus":0,"saledMoney":null,"free_3":0},"_t":1360086677}
+[2013-02-06 01:51:20][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:20][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:20][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:22][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:22][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:22][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:22][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086679,"signature":"d89ad238978a824ef6c9b03754adeae6","sec":"s95"}}
+[2013-02-06 01:51:23][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086679,"signature":"d89ad238978a824ef6c9b03754adeae6","sec":"s95"}}
+[2013-02-06 01:51:23][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:23][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:23][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:23][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:28][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:28][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:28][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:28][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:28][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:28][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:28][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:28][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:28][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:28][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:28][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:29][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086685,"signature":"72a2c2a834440698cdb316c7ee3305d4","sec":"s95"}}
+[2013-02-06 01:51:29][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:29][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086686,"signature":"04986d5d8f14799576ad2aaab87f6dc5","sec":"s95"}}
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:29][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086686,"signature":"04986d5d8f14799576ad2aaab87f6dc5","sec":"s95"}}
+[2013-02-06 01:51:29][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon from Zhenqi.refresh
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:29][DEBUG]requestbegin,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086686,"signature":"04986d5d8f14799576ad2aaab87f6dc5","sec":"s95"}}
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 2
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:29][DEBUG]request,{"m":"Zhenqi.refresh","p":{"u":50217,"timestamp":1360086686,"signature":"04986d5d8f14799576ad2aaab87f6dc5","sec":"s95"}}
+[2013-02-06 01:51:29][DEBUG]response,{"s":"OK","d":{"daily":{"daily_money_minus":82000,"daily_money_add":41401},"money":6638258,"pmoney":-18511938,"zhenqilimit":{"zhenqi_exp_point":5000,"zhenqi_lvlup_exp_pool":4400,"zhenqi_point_pool_3":9790.9057061459,"zhenqi_point_pool_4":86480.761766798,"zhenqi_point_3":51377.997010143,"zhenqi_point_4":3617.5772210022},"zhenqiinfo":{"free_expire_t":1360093887,"mood":2}},"extra":{"gain":{"400051":1},"isSaled":1,"isZhenyuan":null,"poolStatus":0,"saledMoney":4000,"free_3":0},"_t":1360086687}
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:removeWaitingIcon fromZhenqi.refresh
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:29][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:32][DEBUG]WaitingLayerHandler:showWaitingIcon from JH.get
+[2013-02-06 01:51:32][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:32][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:32][DEBUG]requestbegin,{"m":"JH.get","p":{"u":50217,"timestamp":1360086690,"signature":"8d24b41d3f59e353c626b0e0a2aba48b","sec":"s95"}}
+[2013-02-06 01:51:34][DEBUG]request,{"m":"JH.get","p":{"u":50217,"timestamp":1360086690,"signature":"8d24b41d3f59e353c626b0e0a2aba48b","sec":"s95"}}
+[2013-02-06 01:51:34][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:51:34][DEBUG]WaitingLayerHandler:removeWaitingIcon fromJH.get
+[2013-02-06 01:51:34][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 1
+[2013-02-06 01:51:34][DEBUG]WaitingLayerHandler:showWaitingIcon waitingCount 0
+[2013-02-06 01:51:57][DEBUG]requestbegin,{"m":"ChuanshuMsg.getChuanshuMsgs","p":{"u":50217,"timestamp":1360086715,"signature":"bdb252e43a1dcb3242353bf49383a83b","sec":"s95"}}
+[2013-02-06 01:51:57][DEBUG]request,{"m":"ChuanshuMsg.getChuanshuMsgs","p":{"u":50217,"timestamp":1360086715,"signature":"bdb252e43a1dcb3242353bf49383a83b","sec":"s95"}}
+[2013-02-06 01:51:57][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+
+[2013-02-06 01:52:03][DEBUG]requestbegin,{"m":"Chat.getByChannel","p":{"lastkey":"0","type":2,"name":"tv","signature":"49ba8140427ec2aa35bdd4b5845570c8","u":50217,"sec":"s95","timestamp":1360086721}}
+[2013-02-06 01:52:03][DEBUG]request,{"m":"Chat.getByChannel","p":{"lastkey":"0","type":2,"name":"tv","signature":"49ba8140427ec2aa35bdd4b5845570c8","u":50217,"sec":"s95","timestamp":1360086721}}
+[2013-02-06 01:52:03][DEBUG]response,<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="en" />
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/ios91/vms/css/form.css" />
+
+	<title>版本管理系统 - Error</title>
+</head>
+
+<body>
+
+<div class="container" id="page">
+
+	<div id="header">
+		<div id="logo">版本管理系统</div>
+	</div><!-- header -->
+
+	<div id="mainmenu">
+		<ul id="yw0">
+<li><a href="vms.php?r=site/login">登录</a></li>
+</ul>	</div><!-- mainmenu -->
+			<div class="breadcrumbs">
+<a href="/ios91/vms/index.php">Home</a> &raquo; <span>Error</span></div><!-- breadcrumbs -->
+	
+	<div id="content">
+	
+<h2>Error 500</h2>
+
+<div class="error">
+CDbConnection failed to open the DB connection.</div></div><!-- content -->
+
+	<div class="clear"></div>
+
+	<div id="footer">
+		Copyright &copy; 2013 by My Company.<br/>
+		All Rights Reserved.<br/>
+		Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a>.	</div><!-- footer -->
+
+</div><!-- page -->
+
+</body>
+</html>
+

@@ -1,0 +1,13 @@
+1.xml 处理的基本方式
+    SAX("Simple API for XML"),一次读出一点XML内容，然后对发现的每一个元素调用一个方法。
+    DOM("Document Object Model"),一次性读入整个XML文档,然后使用Python类创建一个内部表示形式。
+
+2.包
+    from xml.dom improt minidom
+
+    xml 目录中包含__init__.py
+
+3.xml 解析
+
+    
+    

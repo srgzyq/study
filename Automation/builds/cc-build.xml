@@ -1,0 +1,7 @@
+<project name="cc-build" default="build" baseidr="checkout">
+    <target name="build">
+        <delete name="cook" />
+        <cvs command="co cook"/>
+        <ant antfile="build.xml" dir="cook" target="test" />
+    </target>
+</project>
