@@ -117,11 +117,18 @@ def get_json_file_all_name(find_dir,all_json_file_name):
 def getDicListByFileName(filename):
     out_json_file = open(filename)
     dic_list={}
+    first = True
     while True:
         line = out_json_file.readline()
         if len(line) == 0:
             break
         decoded = json.loads(line)
+        if type(decoded) == list:
+            for e in decoded:
+                for key,value in e.items():
+                    dic_list[key] = value
+            continue
+            
         for key,value in decoded.items():
             dic_list[key] = value
     return dic_list
