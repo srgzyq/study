@@ -52,13 +52,16 @@ def encode_one_by_one(allDicData,leadKey,fileName):
     lua_table = []
     testIndex=0
     index=0
-    allStr = leadKey+"_config="+prase_dic_struct(allDicData,"",index,fileName)
+    #allStr = leadKey+"_config="+prase_dic_struct(allDicData,"",index,fileName)
+    allStr = "return {"+prase_dic_struct(allDicData,"",index,fileName) + "}"
     return allStr
 
 # 单一一个dict 转化为lua格式
 def prase_dic_struct(jsonValue,keyValue,index,fileName):
     strLua=""
-    if keyValue != "":
+    if keyValue != "" and type(keyValue) == int:
+        strLua = "["+str(keyValue)+"]="
+    elif keyValue != "":
         strLua = "[\""+str(keyValue)+"\"]="
     #elif index==0:
     #    strLua="{"
