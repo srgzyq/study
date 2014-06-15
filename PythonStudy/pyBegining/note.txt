@@ -1,0 +1,4 @@
+阅读:
+    Begining Python From Novice to Prefessional
+
+    1.ex1.py 输出年月日
