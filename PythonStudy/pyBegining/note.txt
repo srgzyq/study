@@ -2,3 +2,6 @@
     Begining Python From Novice to Prefessional
 
     1.ex1.py 输出年月日
+    2.ex2.py 解析url，获取domain，关于字符串截取:的用法
+    3.ex3.py 将输入的一句话，放入一个"box"中，居中
+    4.ex4.py 将输入的名字和密码比对，是否包含在list，包含就通过验证
