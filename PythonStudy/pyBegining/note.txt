@@ -9,3 +9,4 @@
     6.ex6.py dict存储姓名的电话和家庭住址
     7.ex7.py dict存储姓名的电话和家庭住址,get方法访问，处理非法值
     8.ex8.py 子类和父类的定义
+    9.ex9.py Basic Sequence Protocal
