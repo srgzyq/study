@@ -1,6 +1,6 @@
 #!/bin/bash
 
-email="@playcrab.com"
+email="@gmail.com"
 
 echo "brace expansion"
 echo sp{el,il,al}l
@@ -17,8 +17,8 @@ firstname=name
 echo ${!firstname}${email}
 
 firstname="srgzyq"
-echo ${firstname:=chichi}${email}
-echo ${cname:=chichi}${email}
+echo ${firstname:=ji}${email}
+echo ${cname:=jia}${email}
 
 
 echo
