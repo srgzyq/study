@@ -43,7 +43,7 @@
         echo sp{el,il.al}l
     Variable expansion
         name="srgzyq"
-        echo ${name}"@playcrab"
+        echo ${name}"@gmail.com"
     tide expansion
         tide(符号~)
 
