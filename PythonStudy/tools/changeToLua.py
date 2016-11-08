@@ -67,14 +67,14 @@ def prase_file_name(fileName):
 
 
 if __name__ == "__main__":
-    ##testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1},"person1":{"age":13,"name":"chichi"}}}
+    ##testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1},"person1":{"age":13,"name":"hello"}}}
     #fileName="/Users/shirui/Develop/ares/svn/Resources/config/item.json"
     #prase_file_name(fileName)
 
 
     #testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1},"chichi":{"hard":{"shenzhang":"pig"},"age":12},"srgzyq":"name"}}
     #testData={"person":{"age":12,"name":"srgzyq","skill":{"python":1,"lua":1,"as3":1}},"srgzyq":[{"value":2000,"key":"test"}]}
-    testData={"srgzyq":{"age":12,"name":"srgzyq","person":[{"value":2000,"key":"test"},{"value":1234,"key":"playcrab"}]}}
+    testData={"srgzyq":{"age":12,"name":"srgzyq","person":[{"value":2000,"key":"test"},{"value":1234,"key":"jijia"}]}}
     """testData={"srgzyq":
                 {
                     "name":
